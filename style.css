@@ -651,7 +651,7 @@ svg{display:block}
 
   .company-logo{width:132px;height:132px;font-size:35px;}
   .claim-badge{height:25px;font-size:12px;margin:0 0 14px;padding:4px 8px;}
-  .hero-main h1{font-size:36px;line-height:1;letter-spacing:-1.1px;margin:0 0 12px;font-weight:750;}
+  .hero-main h1{font-size:36px;line-height:1;letter-spacing:-1.1px;margin:0 0 12px;font-weight:750; font-family: sans-serif !important;} 
   .company-scoreline{gap:9px;}
   .review-count{font-size:16px;}
   .company-scoreline strong{font-size:16px;}
