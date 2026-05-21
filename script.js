@@ -37,7 +37,7 @@ const reviews = [
     rating: 1,
     initials: 'PT',
     avatarType: 'yellow',
-    body: "Ordered a MagSafe wallet to attach to iPhone, order came in the specified time, however it is faulty, and will not pair to phone. I emailed their support team immediately and was told a returns...",
+    body: "Ordered a MagSafe wallet to attach to iPhone, order came in the specified time, however it is not working with iPhone 11, and will not pair to phone. I emailed their support team immediately and was told a returns...",
     fullBody: "Ordered a MagSafe wallet to attach to iPhone. Order came in the specified time, however it is faulty and will not pair to the phone. I emailed their support team immediately and was told a returns process would follow, but it took longer than expected.",
     experienceDate: 'May 15, 2026'
   },
