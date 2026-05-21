@@ -60,7 +60,7 @@ svg{display:block}
   white-space:nowrap;
 }
 .manih {
-  background: white;
+  background: white !important;
 }
 .brand-star{width:33px;height:33px;fill:#00b67a;flex:none}
 .global-search{
