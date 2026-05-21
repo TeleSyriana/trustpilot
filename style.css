@@ -327,6 +327,7 @@ svg{display:block}
   .filter-row{font-size:20px;grid-template-columns:42px 80px 1fr 56px}
   .filter-row input{width:34px;height:34px}
   .filter-row i{height:18px}
+  .CDS_Button_appearance-outline__d36d32 { margin-top: -20px; }
 }
 @media (max-width:620px){
   .page-shell{padding-bottom:20px}
