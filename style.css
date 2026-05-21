@@ -473,7 +473,7 @@ svg{display:block}
 }
 
 /* === V6 final scale correction: closer mobile proportions + lighter weights === */
-:root{ --blue:#405bd0; --line:#d9d4ce; }
+:root{ --blue:#3c57bc; --line:#d9d4ce; }
 
 @media (min-width: 901px){
   .page-shell{border-radius:0 0 28px 28px; overflow:hidden;}
