@@ -59,6 +59,9 @@ svg{display:block}
   color:#fff;
   white-space:nowrap;
 }
+.manih {
+  background: white;
+}
 .brand-star{width:33px;height:33px;fill:#00b67a;flex:none}
 .global-search{
   flex:1;
