@@ -67,14 +67,14 @@ function clamp(num, min, max){ return Math.max(min, Math.min(max, num)); }
 
 function starsImage(rating, extraClass = ''){
   const safe = Number(rating) || 0;
-  const file = safe <= 1 ? 'stars-1.svg' : safe < 4.5 ? 'stars-37.svg' : 'stars-5.svg';
-  const label = safe <= 1 ? '1 star rating' : safe < 4.5 ? '3.7 star rating' : '5 star rating';
+  const file = safe <= 1 ? 'stars-1.svg' : safe < 4.5 ? 'stars-45.svg' : 'stars-5.svg';
+  const label = safe <= 1 ? '1 star rating' : safe < 4.5 ? '4.5 star rating' : '5 star rating';
   return `<img class="stars-img ${extraClass}" src="assets/${file}" alt="${label}" />`;
 }
 
 function ratingBoxes(rating){
   // Top TrustScore area: use the real star SVG assets provided for the school project.
-  return starsImage(Number(rating) >= 4.5 ? 5 : 3.7, 'score-stars-img');
+  return starsImage(Number(rating) >= 4.5 ? 5 : 4.5, 'score-stars-img');
 }
 
 function starBoxes(rating){
