@@ -1114,3 +1114,48 @@ input {
     text-underline-offset:2px !important;
   }
 }
+
+
+/* Final pagination controls */
+.reviews-pagination{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  width:100%;
+  max-width:760px;
+  margin:30px 0 8px;
+  border:1.5px solid #303030;
+  border-radius:6px;
+  overflow:hidden;
+  background:#fff;
+}
+.page-btn{
+  min-height:58px;
+  border:0;
+  background:#fff;
+  color:var(--blue);
+  font-size:21px;
+  font-weight:700;
+  line-height:1;
+  cursor:pointer;
+}
+.page-btn.previous{
+  border-right:1.5px solid var(--blue);
+}
+.page-btn:disabled{
+  color:#b7b7b7;
+  cursor:not-allowed;
+}
+.page-btn:not(:disabled):hover{
+  background:#f7f8ff;
+}
+@media(max-width:620px){
+  .reviews-pagination{
+    max-width:none;
+    margin:24px 0 8px;
+    border-radius:6px;
+  }
+  .page-btn{
+    min-height:54px;
+    font-size:17px;
+  }
+}

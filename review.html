@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Write a review | iPro</title>
+  <style>
+    @font-face {
+      font-display: swap;
+      font-family: Trustpilot Sans;
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://cdn.trustpilot.net/brand-assets/5.3.0/fonts/Trustpilot-Sans.woff2) format("woff2"), url(https://cdn.trustpilot.net/brand-assets/5.3.0/fonts/Trustpilot-Sans.woff) format("woff");
+    }
+    :root{
+      --text:#222326;
+      --muted:#5f5a55;
+      --blue:#3455c7;
+      --green:#04da8d;
+      --border:#2d2d2d;
+      --soft:#f8f7f4;
+      --soft2:#f5f3ef;
+      --grey:#dcdce6;
+      --red:#ff3722;
+      --orange:#ff8622;
+      --yellow:#ffce00;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"Trustpilot Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--text);
+      background:#fff;
+      font-weight:300;
+    }
+    a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+    .review-header{
+      background:#171719;
+      height:122px;
+      display:flex;
+      align-items:center;
+      padding:0 27px;
+    }
+    .review-brand{display:inline-flex;align-items:center;gap:9px;color:#fff;text-decoration:none;font-weight:700;font-size:40px;letter-spacing:-1px}
+    .review-brand svg{width:55px;height:55px;fill:#00b67a;flex:none}
+    .page{max-width:684px;margin:0 auto;padding:30px 27px 42px}
+    .company-card{
+      background:var(--soft);
+      border-radius:22px;
+      min-height:121px;
+      display:flex;
+      align-items:center;
+      gap:28px;
+      padding:26px 28px;
+      margin-bottom:56px;
+    }
+    .company-logo{width:96px;height:96px;display:block;object-fit:cover;flex:none;background:#041f47}
+    .company-card strong{display:block;font-size:28px;line-height:1.1;font-weight:700;margin-bottom:5px}
+    .company-card span{font-size:30px;line-height:1.15;color:#252525}
+    .rate-step{margin-top:183px}
+    .rate-step h1{font-size:48px;line-height:1.18;letter-spacing:-1.4px;margin:0 0 30px;font-weight:700;max-width:520px}
+    .star-selector,.chosen-stars{display:flex;gap:7px;align-items:center}
+    .star-btn{
+      width:96px;height:96px;border:0;padding:0;margin:0;background:var(--grey);cursor:pointer;display:grid;place-items:center;border-radius:0;transition:background .12s ease, transform .12s ease;
+    }
+    .star-btn:hover{transform:translateY(-1px)}
+    .star-btn svg{width:72px;height:72px;fill:#fff}
+    .star-selector[data-hover="1"] .star-btn:nth-child(-n+1){background:var(--red)}
+    .star-selector[data-hover="2"] .star-btn:nth-child(-n+2){background:var(--orange)}
+    .star-selector[data-hover="3"] .star-btn:nth-child(-n+3){background:var(--yellow)}
+    .star-selector[data-hover="4"] .star-btn:nth-child(-n+4){background:#00b67a}
+    .star-selector[data-hover="5"] .star-btn:nth-child(-n+5){background:#00b67a}
+    .captcha-intro{font-size:30px;line-height:1.35;color:#5c5a57;margin-top:78px;max-width:630px}
+    .form-step{display:none;margin-top:58px}
+    .form-step.is-visible{display:block}
+    .selected-rating-img{width:369px;height:auto;display:block;margin-bottom:58px}
+    .field-block{margin-bottom:32px}
+    .field-label{font-size:28px;line-height:1.2;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:4px;white-space:nowrap}
+    .tip-icon{font-size:28px;color:var(--blue);font-weight:300}.tip-link{font-size:24px;font-weight:700;white-space:nowrap}
+    textarea,input[type="text"],input[type="date"]{
+      width:100%;border:1.5px solid #333;border-radius:4px;background:#fff;color:#222;font:inherit;font-size:26px;line-height:1.45;outline:none;
+    }
+    textarea{height:316px;resize:vertical;padding:17px 28px}
+    textarea::placeholder,input::placeholder{color:#a7a7a7;font-weight:700;opacity:1}
+    input[type="text"],input[type="date"]{height:82px;padding:0 28px}
+    .mention-box{background:var(--soft2);border-radius:20px;padding:20px 28px 22px;margin-top:14px}
+    .mention-title{font-size:21px;font-weight:700;color:#5f5a55;margin-bottom:13px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid #d8d4ce;border-radius:4px;background:#fff;font-size:21px;padding:5px 14px;color:#222;font-weight:400}
+    .guidelines{display:inline-block;font-size:24px;font-weight:700;margin:0 0 54px}
+    .date-label{display:flex;align-items:center;gap:6px}.info-dot{width:29px;height:29px;border:1.8px solid #777;border-radius:50%;display:inline-grid;place-items:center;font-size:21px;color:#666;font-weight:700;line-height:1}
+    .date-wrap{position:relative}.date-wrap input{color:transparent}.date-wrap svg{position:absolute;right:25px;top:50%;transform:translateY(-50%);width:28px;height:28px;stroke:#465bb0;fill:none;stroke-width:1.8;pointer-events:none}
+    .notice-card{display:flex;align-items:center;gap:22px;background:#fbfaf5;border:1px solid #d7d2cb;border-radius:22px;padding:21px 22px;margin:54px 0 58px;font-size:25px;line-height:1.25;font-weight:700}
+    .notice-card .shield{width:48px;height:48px;flex:none;filter:drop-shadow(0 5px 12px rgba(57,108,210,.25))}
+    .confirm-row{display:grid;grid-template-columns:43px 1fr;gap:15px;align-items:start;margin-bottom:70px;font-size:24px;line-height:1.25;font-weight:700}
+    .confirm-row input{appearance:none;width:41px;height:41px;border:1.8px solid #333;border-radius:5px;background:#fff;margin:0}.confirm-row input:checked{background:var(--blue);box-shadow:inset 0 0 0 8px #fff}
+    .captcha-final{font-size:23px;line-height:1.4;color:#5c5a57;margin-bottom:18px}
+    .submit-row{margin-top:24px}.submit-btn{width:100%;height:56px;border:0;border-radius:999px;background:#3455c7;color:#fff;font-size:18px;font-weight:700;cursor:pointer}.submit-btn:hover{background:#2544b7}
+    @media (max-width:520px){
+      .review-header{height:122px;padding:0 27px}.review-brand{font-size:37px}.review-brand svg{width:54px;height:54px}
+      .page{padding:30px 27px 42px}.company-card{min-height:121px;margin-bottom:55px;padding:26px 28px;gap:28px}.company-logo{width:96px;height:96px}.company-card strong{font-size:28px}.company-card span{font-size:30px}
+      .rate-step{margin-top:183px}.rate-step h1{font-size:47px}.star-btn{width:96px;height:96px}.star-btn svg{width:70px;height:70px}
+      .captcha-intro{font-size:29px}.selected-rating-img{width:369px;max-width:100%;margin-bottom:58px}.field-label{font-size:28px}.tip-link{font-size:23px}textarea{font-size:28px;padding:17px 28px}.guidelines{font-size:24px}
+    }
+    @media (max-width:420px){
+      .review-brand{font-size:32px}.review-brand svg{width:48px;height:48px}.page{padding-left:20px;padding-right:20px}.company-card{padding:18px;gap:18px}.company-logo{width:78px;height:78px}.company-card strong{font-size:24px}.company-card span{font-size:26px}
+      .rate-step{margin-top:120px}.rate-step h1{font-size:40px}.star-btn{width:66px;height:66px}.star-btn svg{width:50px;height:50px}.captcha-intro{font-size:24px;margin-top:55px}.form-step{margin-top:40px}.field-label{font-size:23px}.tip-link{font-size:18px}textarea,input[type="text"],input[type="date"]{font-size:22px}.notice-card{font-size:20px}.confirm-row{font-size:20px}.captcha-final{font-size:20px}
+    }
+  </style>
+</head>
+<body>
+  <header class="review-header">
+    <a class="review-brand" href="index.html" aria-label="Trustpilot homepage">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 1l6.2 17.8H48L33.6 29.7 39.1 47 24 36.4 8.9 47l5.5-17.3L0 18.8h17.8z"/></svg>
+      <span>Trustpilot</span>
+    </a>
+  </header>
+
+  <main class="page">
+    <section class="company-card" aria-label="Company being reviewed">
+      <img class="company-logo" src="assets/ipro-logo.png" alt="iPro" />
+      <div><strong>iPro</strong><span>iprostore.co.uk</span></div>
+    </section>
+
+    <section id="rateStep" class="rate-step">
+      <h1>How would you rate your experience?</h1>
+      <div class="star-selector" id="starSelector" aria-label="Choose rating">
+        <button class="star-btn" data-rating="1" aria-label="1 star" type="button"><svg viewBox="0 0 96 96"><path d="M48,64.7 L62.6,61 L68.7,79.8 L48,64.7 Z M81.6,40.4 L55.9,40.4 L48,16.2 L40.1,40.4 L14.4,40.4 L35.2,55.4 L27.3,79.6 L48.1,64.6 L60.9,55.4 L81.6,40.4 Z"/></svg></button>
+        <button class="star-btn" data-rating="2" aria-label="2 stars" type="button"><svg viewBox="0 0 96 96"><path d="M48,64.7 L62.6,61 L68.7,79.8 L48,64.7 Z M81.6,40.4 L55.9,40.4 L48,16.2 L40.1,40.4 L14.4,40.4 L35.2,55.4 L27.3,79.6 L48.1,64.6 L60.9,55.4 L81.6,40.4 Z"/></svg></button>
+        <button class="star-btn" data-rating="3" aria-label="3 stars" type="button"><svg viewBox="0 0 96 96"><path d="M48,64.7 L62.6,61 L68.7,79.8 L48,64.7 Z M81.6,40.4 L55.9,40.4 L48,16.2 L40.1,40.4 L14.4,40.4 L35.2,55.4 L27.3,79.6 L48.1,64.6 L60.9,55.4 L81.6,40.4 Z"/></svg></button>
+        <button class="star-btn" data-rating="4" aria-label="4 stars" type="button"><svg viewBox="0 0 96 96"><path d="M48,64.7 L62.6,61 L68.7,79.8 L48,64.7 Z M81.6,40.4 L55.9,40.4 L48,16.2 L40.1,40.4 L14.4,40.4 L35.2,55.4 L27.3,79.6 L48.1,64.6 L60.9,55.4 L81.6,40.4 Z"/></svg></button>
+        <button class="star-btn" data-rating="5" aria-label="5 stars" type="button"><svg viewBox="0 0 96 96"><path d="M48,64.7 L62.6,61 L68.7,79.8 L48,64.7 Z M81.6,40.4 L55.9,40.4 L48,16.2 L40.1,40.4 L14.4,40.4 L35.2,55.4 L27.3,79.6 L48.1,64.6 L60.9,55.4 L81.6,40.4 Z"/></svg></button>
+      </div>
+      <p class="captcha-intro">This site is protected by reCAPTCHA. We collect device and interaction signals for security purposes as described in our <a href="#">Privacy Policy</a>.</p>
+    </section>
+
+    <section id="formStep" class="form-step" aria-live="polite">
+      <img id="selectedStars" class="selected-rating-img" src="assets/stars-3.svg" alt="Selected rating" />
+      <form>
+        <div class="field-block">
+          <label class="field-label" for="experienceText">Tell us more about your experience <span class="tip-icon">💡</span> <a class="tip-link" href="#">Want a tip?</a></label>
+          <textarea id="experienceText" placeholder="What went wrong this time? How can this company improve? Remember to be honest, helpful, and constructive!"></textarea>
+          <div class="mention-box">
+            <div class="mention-title">Other people mention</div>
+            <div class="chips"><span class="chip">Order</span><span class="chip">Product</span><span class="chip">Delivery service</span></div>
+          </div>
+        </div>
+
+        <a class="guidelines" href="#">Read our Guidelines for Reviewers</a>
+
+        <div class="field-block">
+          <label class="field-label" for="reviewTitle">Give your review a title</label>
+          <input id="reviewTitle" type="text" placeholder="What's important for people to know?" />
+        </div>
+
+        <div class="field-block">
+          <label class="field-label date-label" for="experienceDate">Date of experience <span class="info-dot">i</span></label>
+          <div class="date-wrap">
+            <input id="experienceDate" type="date" />
+            <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15"></rect><path d="M8 3v4M16 3v4M4 9h16"></path></svg>
+          </div>
+        </div>
+
+        <div class="notice-card">
+          <svg class="shield" viewBox="0 0 24 24"><path d="M12 2 4.5 5v6.2c0 4.5 3.2 8.6 7.5 9.8 4.3-1.2 7.5-5.3 7.5-9.8V5z" fill="#7da6ff" stroke="#4468cf"/><path d="m12 7 1.7 3.4 3.8.5-2.8 2.7.7 3.8-3.4-1.8-3.4 1.8.7-3.8-2.8-2.7 3.8-.5z" fill="#111"/></svg>
+          <div>Trustpilot doesn’t allow companies to offer payments or benefits in exchange for leaving a review. <a href="#">Learn about incentives.</a></div>
+        </div>
+
+        <label class="confirm-row">
+          <input type="checkbox" />
+          <span>By submitting this review, you confirm it’s <a href="#">based on a genuine experience</a> and you haven’t received an incentive to write it.</span>
+        </label>
+
+        <p class="captcha-final">This site is protected by reCAPTCHA. We collect device and interaction signals for security purposes as described in our <a href="#">Privacy Policy</a>.</p>
+        <div class="submit-row"><button class="submit-btn" type="submit">Submit feedback</button></div>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    const selector = document.getElementById('starSelector');
+    const buttons = Array.from(selector.querySelectorAll('.star-btn'));
+    const rateStep = document.getElementById('rateStep');
+    const formStep = document.getElementById('formStep');
+    const selectedStars = document.getElementById('selectedStars');
+    const experienceText = document.getElementById('experienceText');
+    const redirectUrl = 'https://iprostore.co.uk';
+
+    buttons.forEach(btn => {
+      btn.addEventListener('mouseenter', () => selector.dataset.hover = btn.dataset.rating);
+      btn.addEventListener('focus', () => selector.dataset.hover = btn.dataset.rating);
+      btn.addEventListener('click', () => {
+        const rating = Number(btn.dataset.rating);
+        if (rating >= 4) {
+          window.location.href = redirectUrl;
+          return;
+        }
+        selector.dataset.hover = rating;
+        selectedStars.src = `assets/stars-${rating}.svg`;
+        selectedStars.alt = `${rating} star rating`;
+        experienceText.placeholder = rating === 3
+          ? 'What did you like or dislike? What is this company doing well, or how can they improve? Remember to be honest, helpful, and constructive!'
+          : 'What went wrong this time? How can this company improve? Remember to be honest, helpful, and constructive!';
+        rateStep.style.display = 'none';
+        formStep.classList.add('is-visible');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+    selector.addEventListener('mouseleave', () => selector.dataset.hover = '');
+    document.querySelector('form').addEventListener('submit', e => e.preventDefault());
+  </script>
+</body>
+</html>
