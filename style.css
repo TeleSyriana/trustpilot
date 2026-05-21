@@ -432,7 +432,7 @@ svg{display:block}
   .nav-shell{min-height:72px;padding:14px 18px}.brand{font-size:26px}.brand-star{width:36px;height:36px}.mobile-icons{display:flex}.global-search,.main-nav{display:none}
   .page-shell{background:#fff;border-radius:0 0 28px 28px;padding-bottom:24px;}
   .top-card{padding:26px 16px 14px;border-radius:0 0 28px 28px;min-height:0;background:#fff;}
-  .hero-grid{display:block}.company-area{display:block}.company-top-row{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}.company-logo{width:108px;height:108px;font-size:32px}.only-mobile{display:block}.only-desktop{display:none}
+  .hero-grid{display:block}.company-area{display:block}.company-top-row{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}.company-logo{width:108px;height:108px;font-size:32px}.only-mobile{display:block;margin-top: 20px;}.only-desktop{display:none}
   .mobile-top-action .btn.ghost{height:54px;padding:0 22px;font-size:16px;min-width:190px}.mobile-top-action .btn.ghost span{font-size:16px}
   .claim-badge{margin:18px 0 16px;height:36px;font-size:16px;padding:6px 9px}.claim-badge svg{width:21px;height:21px}
   .hero-main h1{font-size:34px;letter-spacing:-1px;margin:0 0 10px}.company-scoreline{gap:9px}.review-count{font-size:21px}.company-scoreline strong{font-size:20px}.info-link svg{width:27px;height:27px}.rating-boxes.inline .rating-box{width:27px;height:25px}.rating-box::before{font-size:18px}
