@@ -62,7 +62,7 @@ svg{display:block}
 .manih {
   background: white !important;
 }
-.brand-star{width:33px;height:33px;fill:#00b67a;flex:none}
+.brand-star{height:33px;flex:none}
 .global-search{
   flex:1;
   max-width:470px;
