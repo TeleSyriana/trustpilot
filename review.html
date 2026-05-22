@@ -127,14 +127,30 @@ textarea,input[type=text],input[type=date]{font-size:16px}
 .mention-title{font-weight:500;color:#5f5a55;margin-bottom:13px}
 .guidelines{display:inline-block;font-weight:500;margin:0 0 54px}
 }
+    .review-brand{display:inline-flex;align-items:center;gap:9px;color:#fff;text-decoration:none;font-weight:500;font-size:40px;letter-spacing:-1px}
+.review-brand svg{width:55px;height:55px;fill:#00b67a;flex:none}
+    .review-brand{
+  display:inline-flex;
+  align-items:center;
+  color:#fff;
+  text-decoration:none;
+}
+
+.review-logo{
+  display:block;
+  width:170px;
+  height:auto;
+}
+    .review-logo{
+  width:145px;
+}
+    font-family: Trustpilot Sans, Arial, sans-serif;
   </style>
-</head>
-<body>
-  <header class="review-header">
-    <div class="brand" href="#" aria-label="Trustpilot homepage">
-        <img class="brand-star" src="assets/logo-white.svg" alt="User avatar" />
-    </div>
-  </header>
+<header class="review-header">
+  <a class="review-brand" href="index.html" aria-label="Trustpilot homepage">
+    <img class="review-logo" src="./assets/logo-white.svg" alt="Trustpilot" />
+  </a>
+</header>
 
   <main class="page">
     <section class="company-card" aria-label="Company being reviewed">
