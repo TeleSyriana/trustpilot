@@ -368,6 +368,11 @@ body{
     clip-path:polygon(0 100%, 16% 48%, 72% 26%, 100% 0, 100% 100%) !important;
   }
 }
+@media (max-width: 960px){
+  .slider-actions button{
+    visibility: hidden !important;
+  }
+}
 
 @media (max-width: 520px){
   body{padding-top:var(--header-height-mobile);}
