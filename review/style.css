@@ -155,7 +155,7 @@ svg{display:block}
 .hero-side{display:flex;flex-direction:column;gap:12px}
 .score-card,.side-info-card{background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow)}
 .score-card-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:20px;padding:30px 30px 24px}
-.big-score{font-size:74px;font-weight:800;line-height:.95;letter-spacing:-2px}
+.big-score{font-size:54px;font-weight:800;line-height:.95;letter-spacing:-2px; font-family: system-ui;;}
 .score-label{font-size:22px;font-weight:700;margin-top:10px}
 .score-meta{font-size:16px;margin-top:12px}
 .score-bars{display:flex;flex-direction:column;gap:15px;padding-top:3px}
