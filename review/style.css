@@ -368,7 +368,7 @@ svg{display:block}
   .filter-panel h2{font-size:32px;letter-spacing:-1px}
   .review-total strong,.review-total a{font-size:16px}
   .filter-box{padding:10px !important;border-radius:15px !important}
-  .filter-row{font-size:13px !important;grid-template-columns:34px 70px 1fr 48px;gap:10px;margin:16px 0}
+  .filter-row{font-size:13px !important}
   .filter-row input{width:13px;height:13px;border-width:1.6px}
   .filter-row i{height:14px}
   .labels-link{font-size:16px}
