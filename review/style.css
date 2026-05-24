@@ -2107,8 +2107,8 @@ body.notifications-open .notif-panel{transform:translateX(0);}
 
 /* v-next: decouple mobile review summary star from header logo sizing */
 .review-score-star{
-  width:46px !important;
-  height:46px !important;
+  width:36px !important;
+  height:36px !important;
   flex:0 0 56px !important;
   display:block !important;
   fill:rgb(255, 206, 0) !important;
