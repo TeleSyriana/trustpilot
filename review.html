@@ -415,7 +415,14 @@ textarea,input[type=text],input[type=date]{font-size:16px}
       btn.addEventListener('click', () => {
         const rating = Number(btn.dataset.rating);
         state.rating = rating;
-        selector.dataset.hover = rating;
+        
+        if (rating >= 4) {
+          localStorage.setItem('iproSelectedRating', String(rating));
+          window.location.assign('https://google.com');
+          return;
+        }
+
+selector.dataset.hover = rating;
         selectedStars.src = `assets/stars-${rating}.svg`;
         selectedStars.alt = `${rating} star rating`;
         experienceText.placeholder = rating === 3
@@ -569,8 +576,20 @@ textarea,input[type=text],input[type=date]{font-size:16px}
       localStorage.setItem('iproPendingReview', JSON.stringify(reviewPayload));
       localStorage.setItem('iproReviewMade', 'true');
       localStorage.setItem('iproAuthVerified', 'true');
-      window.location.href = 'review/pending-review.html';
+      redirectAfterReviewByRating(state?.rating || reviewPayload?.rating || localStorage.getItem('iproSelectedRating') || 0);
     });
   </script>
+
+<script>
+function redirectAfterReviewByRating(finalRating) {
+  const parsedRating = Number(finalRating || 0);
+  if (parsedRating >= 4) {
+    window.location.assign('https://google.com');
+    return;
+  }
+  window.location.assign('review/pending-review.html');
+}
+</script>
+
 </body>
 </html>
