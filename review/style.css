@@ -1044,7 +1044,7 @@ input {
   .score-bars{
     gap:11px !important;
     padding-top:1px !important;
-    min-width: 250px !important;
+    min-width: 200px !important;
   }
   .bar-row{
     grid-template-columns:62px 1fr !important;
