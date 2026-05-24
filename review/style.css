@@ -869,6 +869,7 @@ svg{display:block}
     line-height:1.02 !important;
     margin:0 0 10px !important;
     letter-spacing:-0.5px !important;
+    font-family: sans-serif !important;
   }
   .company-scoreline{
     gap:8px !important;
