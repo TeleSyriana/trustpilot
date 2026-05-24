@@ -637,7 +637,8 @@ svg{display:block}
     position:absolute;
     top:40px;
     right:calc((100% - 1260px)/2);
-    width:330px;
+    min-width: 330px;
+    max-width: 450px;
     gap:12px;
     z-index:2;
   }
