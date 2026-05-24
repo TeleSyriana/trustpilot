@@ -148,6 +148,65 @@ textarea,input[type=text],input[type=date]{font-size:16px}
   
 .review-logo{display:block;width:170px;height:auto}
 @media (min-width:20px){.review-logo{width:145px}}
+
+    /* Task update: delayed auth/date/submit flow */
+    .hidden{display:none!important}
+    .auth-step{margin:34px 0 28px}
+    .auth-heading{font-size:24px;line-height:1.15;font-weight:500;margin:0 0 12px;color:#222326}
+    .auth-subheading{font-size:18px;line-height:1.4;color:#5c5a57;margin:0 0 20px}
+    .auth-btn{width:90%;min-height:42px;border-radius:999px;border:1px solid #d9dfef;display:flex;align-items:center;justify-content:center;gap:12px;padding:0 18px;margin:0 auto 12px;font:inherit;font-size:16px;font-weight:500;cursor:pointer;transition:transform .12s ease,filter .12s ease}
+    .auth-btn:hover{transform:translateY(-1px);filter:brightness(.98)}
+    .auth-btn img{width:24px;height:24px;object-fit:contain;flex:none}
+    .auth-btn-google{background:#edf2ff;color:#343434;border:1px solid #d8e0f4}
+    .auth-btn-facebook{background:#1877f2;color:#fff;border:none;font-weight:700}
+    .auth-btn-facebook img{background:#fff;border-radius:50%;padding:2px}
+    .auth-btn-apple{background:#000;color:#fff;border:none}
+    .auth-btn-apple img{filter:invert(1)}
+    .auth-email-link{width:90%;background:transparent;border:0;padding:8px 0 0;color:#3455c7;text-decoration:underline;text-underline-offset:3px;font:inherit;font-size:18px;cursor:pointer;display:block;margin:0 auto}
+    .continue-email-btn{width:90%;min-height:42px;border:0;border-radius:999px;background:#3455c7;color:#fff;font:inherit;font-size:16px;font-weight:500;cursor:pointer;margin:14px auto 0;display:flex;align-items:center;justify-content:center}
+    .error-text{color:#c62828;font-size:14px;margin:8px 0 0}
+    .review-complete-message{background:#eef6f1;border:1px solid #b7dfc4;border-radius:12px;color:#143d25;font-size:15px;line-height:1.4;margin-top:16px;padding:14px 16px}
+
+    /* Final UI polish: tick checkbox, dark submit, auth verifying state */
+    .confirm-row input{
+      appearance:none;
+      -webkit-appearance:none;
+      width:41px;
+      height:41px;
+      border:2px solid #3f5fd0;
+      border-radius:7px;
+      background:#fff;
+      margin:0;
+      display:inline-block;
+      background-repeat:no-repeat;
+      background-position:center;
+      background-size:72%;
+    }
+    .confirm-row input:checked{
+      background-color:#eef3ff;
+      border-color:#3f5fd0;
+      box-shadow:none;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='none' stroke='%233f5fd0' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' d='M7 16.5l6 6L25 9.5'/%3E%3C/svg%3E");
+    }
+    .submit-btn{
+      width:100%;
+      min-height:64px;
+      border:0;
+      border-radius:999px;
+      background:#4f514d;
+      color:#fff;
+      font-size:20px;
+      font-weight:700;
+      cursor:pointer;
+    }
+    .submit-btn:hover{background:#3f413e}
+    .auth-btn.is-verifying{opacity:.82;pointer-events:none}
+    .auth-btn:disabled,.continue-email-btn:disabled{cursor:not-allowed;opacity:.72}
+    @media (min-width:20px){
+      .confirm-row input{width:32px;height:32px;border-radius:7px}
+      .submit-btn{min-height:56px;font-size:18px}
+    }
+
 </style>
 <header class="review-header">
   <a class="review-brand" href="index.html" aria-label="Trustpilot homepage">
@@ -192,11 +251,10 @@ textarea,input[type=text],input[type=date]{font-size:16px}
           <input id="reviewTitle" type="text" placeholder="What's important for people to know?" />
         </div>
 
-        <div class="field-block">
+        <div id="dateStep" class="field-block">
           <label class="field-label date-label" for="experienceDate">Date of experience <span class="info-dot">i</span></label>
           <div class="date-wrap">
-            <input id="experienceDate" type="date" />
-        
+            <input id="experienceDate" type="date" required />
           </div>
         </div>
 
@@ -206,12 +264,42 @@ textarea,input[type=text],input[type=date]{font-size:16px}
         </div>
 
         <label class="confirm-row">
-          <input type="checkbox" />
+          <input id="confirmExperience" type="checkbox" required />
           <span>By submitting this review, you confirm it’s <a href="#">based on a genuine experience</a> and you haven’t received an incentive to write it.</span>
         </label>
 
+        <div id="authStep" class="auth-step hidden" aria-live="polite">
+          <h2 class="auth-heading">Just one last step</h2>
+          <p class="auth-subheading">It’s your story to tell—continue to submit.</p>
+
+          <button type="button" class="auth-btn auth-btn-google" id="googleBtn">
+            <img src="assets/auth-icons/auth-3.svg" alt="" aria-hidden="true" />
+            <span>Continue with Google</span>
+          </button>
+
+          <button type="button" class="auth-btn auth-btn-facebook" id="facebookBtn">
+            <img src="assets/auth-icons/auth-2.svg" alt="" aria-hidden="true" />
+            <span>Continue with Facebook</span>
+          </button>
+
+          <button type="button" class="auth-btn auth-btn-apple" id="appleBtn">
+            <img src="assets/auth-icons/auth-1.svg" alt="" aria-hidden="true" />
+            <span>Continue with Apple</span>
+          </button>
+
+          <button type="button" class="auth-email-link" id="emailChoiceBtn">Continue with email</button>
+        </div>
+
+        <div id="emailStep" class="field-block hidden" aria-live="polite">
+          <label class="field-label" for="signInEmail">Email</label>
+          <input id="signInEmail" type="email" placeholder="Enter your email" autocomplete="email" />
+          <p id="emailError" class="error-text hidden">Please enter a valid email address.</p>
+          <button type="button" class="continue-email-btn" id="continueEmailBtn">Continue with email</button>
+        </div>
+
         <p class="captcha-final">This site is protected by reCAPTCHA. We collect device and interaction signals for security purposes as described in our <a href="#">Privacy Policy</a>.</p>
-        <div class="submit-row"><button class="submit-btn" type="submit">Submit feedback</button></div>
+        <div id="submitRow" class="submit-row hidden"><button class="submit-btn" type="submit">Submit review</button></div>
+        <div id="completeMessage" class="review-complete-message hidden">Thank you. Your feedback is ready to be submitted.</div>
       </form>
     </section>
   </main>
@@ -223,17 +311,110 @@ textarea,input[type=text],input[type=date]{font-size:16px}
     const formStep = document.getElementById('formStep');
     const selectedStars = document.getElementById('selectedStars');
     const experienceText = document.getElementById('experienceText');
-    const redirectUrl = 'https://uk.trustpilot.com/evaluate/iprostore.co.uk';
+    const reviewTitle = document.getElementById('reviewTitle');
+    let titleWasEditedManually = false;
+
+    const authStep = document.getElementById('authStep');
+    const emailStep = document.getElementById('emailStep');
+    const dateStep = document.getElementById('dateStep');
+    const submitRow = document.getElementById('submitRow');
+    const completeMessage = document.getElementById('completeMessage');
+
+    const googleBtn = document.getElementById('googleBtn');
+    const facebookBtn = document.getElementById('facebookBtn');
+    const appleBtn = document.getElementById('appleBtn');
+    const socialAuthButtons = [googleBtn, facebookBtn, appleBtn];
+    const emailChoiceBtn = document.getElementById('emailChoiceBtn');
+
+    const signInEmail = document.getElementById('signInEmail');
+    const continueEmailBtn = document.getElementById('continueEmailBtn');
+    const emailError = document.getElementById('emailError');
+    const experienceDate = document.getElementById('experienceDate');
+    const confirmExperience = document.getElementById('confirmExperience');
+    const form = document.querySelector('form');
+
+    function hasTrustedSession() {
+      return localStorage.getItem('iproAuthVerified') === 'true' ||
+        localStorage.getItem('iproReviewMade') === 'true' ||
+        Boolean(localStorage.getItem('iproPendingReview'));
+    }
+
+    const state = {
+      rating: null,
+      reviewFilled: false,
+      confirmed: false,
+      authMethod: null,
+      authVerified: hasTrustedSession(),
+      emailVerified: false,
+      authLoading: false
+    };
+
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+    }
+
+    function hideSubmitResult() {
+      completeMessage.classList.add('hidden');
+    }
+
+    function resetAuthButtonLabels() {
+      googleBtn.querySelector('span').textContent = 'Continue with Google';
+      facebookBtn.querySelector('span').textContent = 'Continue with Facebook';
+      appleBtn.querySelector('span').textContent = 'Continue with Apple';
+      socialAuthButtons.forEach(btn => {
+        btn.disabled = false;
+        btn.classList.remove('is-verifying');
+      });
+    }
+
+    function resetAuthAndSubmit() {
+      state.authMethod = null;
+      state.authVerified = hasTrustedSession();
+      state.emailVerified = hasTrustedSession();
+      state.authLoading = false;
+      signInEmail.value = '';
+      emailError.classList.add('hidden');
+      emailStep.classList.add('hidden');
+      submitRow.classList.add('hidden');
+      resetAuthButtonLabels();
+      hideSubmitResult();
+    }
+
+    function updateUI() {
+      state.reviewFilled = experienceText.value.trim().length > 0;
+      state.confirmed = confirmExperience.checked;
+
+      if (!state.reviewFilled) {
+        authStep.classList.add('hidden');
+        resetAuthAndSubmit();
+        return;
+      }
+
+      dateStep.classList.remove('hidden');
+
+      if (state.authVerified) {
+        authStep.classList.add('hidden');
+        emailStep.classList.add('hidden');
+      } else {
+        authStep.classList.remove('hidden');
+        if (state.authMethod === 'email') {
+          emailStep.classList.remove('hidden');
+        } else {
+          emailStep.classList.add('hidden');
+        }
+      }
+
+      const authDone = hasTrustedSession() || state.authVerified || state.emailVerified;
+      const canShowSubmit = state.reviewFilled && authDone && state.confirmed;
+      submitRow.classList.toggle('hidden', !canShowSubmit);
+    }
 
     buttons.forEach(btn => {
       btn.addEventListener('mouseenter', () => selector.dataset.hover = btn.dataset.rating);
       btn.addEventListener('focus', () => selector.dataset.hover = btn.dataset.rating);
       btn.addEventListener('click', () => {
         const rating = Number(btn.dataset.rating);
-        if (rating >= 4) {
-          window.location.href = redirectUrl;
-          return;
-        }
+        state.rating = rating;
         selector.dataset.hover = rating;
         selectedStars.src = `assets/stars-${rating}.svg`;
         selectedStars.alt = `${rating} star rating`;
@@ -242,11 +423,154 @@ textarea,input[type=text],input[type=date]{font-size:16px}
           : 'What went wrong this time? How can this company improve? Remember to be honest, helpful, and constructive!';
         rateStep.style.display = 'none';
         formStep.classList.add('is-visible');
+        resetAuthAndSubmit();
+        updateUI();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     });
+
     selector.addEventListener('mouseleave', () => selector.dataset.hover = '');
-    document.querySelector('form').addEventListener('submit', e => e.preventDefault());
+
+    function buildAutoTitle(value) {
+      return value.trim().replace(/\s+/g, ' ').slice(0, 50);
+    }
+
+    experienceText.addEventListener('input', () => {
+      hideSubmitResult();
+
+      if (!titleWasEditedManually) {
+        reviewTitle.value = buildAutoTitle(experienceText.value);
+      }
+
+      if (!experienceText.value.trim()) {
+        reviewTitle.value = '';
+        titleWasEditedManually = false;
+        resetAuthAndSubmit();
+      }
+
+      updateUI();
+    });
+
+    reviewTitle.addEventListener('input', () => {
+      titleWasEditedManually = reviewTitle.value.trim().length > 0;
+      hideSubmitResult();
+    });
+
+    function verifySocialAuth(method, button) {
+      if (state.authLoading || state.authVerified) return;
+
+      state.authMethod = method;
+      state.authLoading = true;
+      state.authVerified = false;
+      state.emailVerified = false;
+      signInEmail.value = '';
+      emailError.classList.add('hidden');
+      emailStep.classList.add('hidden');
+      hideSubmitResult();
+
+      socialAuthButtons.forEach(btn => {
+        btn.disabled = true;
+        btn.classList.remove('is-verifying');
+      });
+
+      button.disabled = true;
+      button.classList.add('is-verifying');
+      button.querySelector('span').textContent = 'Verifying...';
+
+      window.setTimeout(() => {
+        state.authLoading = false;
+        localStorage.setItem('iproAuthVerified', 'true');
+        state.authVerified = true;
+        resetAuthButtonLabels();
+        updateUI();
+        submitRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 900);
+    }
+
+    googleBtn.addEventListener('click', () => verifySocialAuth('google', googleBtn));
+    facebookBtn.addEventListener('click', () => verifySocialAuth('facebook', facebookBtn));
+    appleBtn.addEventListener('click', () => verifySocialAuth('apple', appleBtn));
+
+    emailChoiceBtn.addEventListener('click', () => {
+      state.authMethod = 'email';
+      state.authVerified = false;
+      state.emailVerified = false;
+      emailError.classList.add('hidden');
+      hideSubmitResult();
+      updateUI();
+      emailStep.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    continueEmailBtn.addEventListener('click', () => {
+      const email = signInEmail.value.trim();
+      if (!isValidEmail(email)) {
+        state.emailVerified = false;
+        state.authVerified = false;
+        emailError.classList.remove('hidden');
+        updateUI();
+        return;
+      }
+
+      continueEmailBtn.disabled = true;
+      continueEmailBtn.textContent = 'Verifying...';
+
+      window.setTimeout(() => {
+        localStorage.setItem('iproAuthVerified', 'true');
+        state.emailVerified = true;
+        state.authVerified = true;
+        emailError.classList.add('hidden');
+        continueEmailBtn.disabled = false;
+        continueEmailBtn.textContent = 'Continue with email';
+        hideSubmitResult();
+        updateUI();
+        submitRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 700);
+    });
+
+    signInEmail.addEventListener('input', () => {
+      state.emailVerified = hasTrustedSession();
+      state.authVerified = hasTrustedSession();
+      emailError.classList.add('hidden');
+      hideSubmitResult();
+      updateUI();
+    });
+
+    experienceDate.addEventListener('change', hideSubmitResult);
+    experienceDate.addEventListener('input', hideSubmitResult);
+    confirmExperience.addEventListener('change', () => {
+      hideSubmitResult();
+      updateUI();
+    });
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      updateUI();
+      const authDone = hasTrustedSession() || state.authVerified || state.emailVerified;
+      if (!state.reviewFilled || !authDone) return;
+      if (!confirmExperience.checked) {
+        confirmExperience.reportValidity();
+        return;
+      }
+      if (!experienceDate.value.trim()) {
+        experienceDate.reportValidity();
+        return;
+      }
+
+      const reviewPayload = {
+        rating: state.rating || 5,
+        title: reviewTitle.value.trim() || buildAutoTitle(experienceText.value) || 'My review',
+        body: experienceText.value.trim(),
+        date: experienceDate.value,
+        companyName: 'iPro',
+        companyDomain: 'iprostore.co.uk',
+        logo: 'assets/ipro-logo.png'
+      };
+
+      localStorage.setItem('iproPendingReview', JSON.stringify(reviewPayload));
+      localStorage.setItem('iproReviewMade', 'true');
+      localStorage.setItem('iproAuthVerified', 'true');
+      window.location.href = 'pending-review.html';
+    });
   </script>
 </body>
 </html>
