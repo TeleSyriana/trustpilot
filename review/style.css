@@ -1560,6 +1560,12 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   height:24px!important;
   transition:transform .18s ease!important;
 }
+@media(min-width:960px){
+.accordion-toggle svg{
+  margin-top: -10px;
+}
+}
+
 .integrity-card.is-open .accordion-toggle svg{
   transform:rotate(180deg)!important;
 }
