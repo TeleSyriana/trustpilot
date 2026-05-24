@@ -78,7 +78,7 @@ svg{display:block}
 .global-search input{border:0;outline:0;width:100%;font-size:16px;color:#222;background:transparent}
 .global-search svg,.review-search svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .main-nav{display:flex;align-items:center;gap:26px;margin-left:auto}
-.main-nav>a{color:#fff;opacity:.95;font-size:15px}
+.main-nav>a{color:#ebe9ec;opacity:.95;font-size:15px}
 .icon-link svg{width:24px;height:24px;stroke:#8ca2ff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .business-link{
   background:#6f95ff;
