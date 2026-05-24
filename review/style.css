@@ -1539,7 +1539,6 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   display:flex!important;
   align-items:center!important;
   gap:18px!important;
-  min-height:84px!important;
   padding:18px 68px 18px 28px!important;
 }
 .integrity-left strong{
