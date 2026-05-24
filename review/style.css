@@ -1073,7 +1073,7 @@ input {
     overflow:hidden !important;
   }
   .score-card-grid{
-    padding:20px 10px 20px 20px !important;
+    padding:15px !important;
     grid-template-columns:0.4fr 1.14fr !important;
     gap:16px !important;
     align-items:start !important;
