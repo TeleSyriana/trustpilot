@@ -2124,8 +2124,6 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   }
 
   .filter-scoreline .review-score-star{
-    width:36px !important;
-    height:36px !important;
     flex-basis:56px !important;
   }
 
