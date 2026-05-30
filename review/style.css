@@ -2115,7 +2115,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
     fill: rgb(3 190 138) !important;
     position: inherit;
     margin-bottom: -60px;
-    margin-right: -70px;
+    margin-right: -60px;
 }
 
 @media (max-width: 960px){
@@ -2125,6 +2125,9 @@ body.notifications-open .notif-panel{transform:translateX(0);}
 
   .filter-scoreline .review-score-star{
     flex-basis:56px !important;
+  }
+  .review-score-star{
+    margin-right: -70px;
   }
 
   .filter-panel h2{
