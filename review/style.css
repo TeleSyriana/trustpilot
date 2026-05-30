@@ -322,7 +322,7 @@ svg{display:block}
   .tabs-bar{top:68px;min-height:70px;padding:0 18px}
   .tabs-links{gap:24px}
   .tabs-links a{font-size:16px}
-  .summary-reviews-section h2{font-size:28px}
+  .summary-reviews-section h2{font-size:24px}
   .filter-panel h2{font-size:48px}
   .filter-row{font-size:18px;grid-template-columns:42px 80px 1fr 56px}
   .filter-row input{width:34px;height:34px}
@@ -417,7 +417,7 @@ svg{display:block}
   .integrity-card::before{content:"";position:absolute;}
   .integrity-card strong{font-size:14px}.shield-icon{width:32px;height:32px}.accordion-toggle svg{width:22px;height:22px}
   .summary-reviews-section{width:620px;margin:0 0 0 calc((100% - 960px)/2);padding:0;}
-  .summary-reviews-section h2{font-size:27px;letter-spacing:-.4px;margin:30px 0 28px;}
+  .summary-reviews-section h2{font-size:24px;letter-spacing:-.4px;margin:30px 0 28px;}
   .summary-reviews-track{display:grid;grid-template-columns:1fr 1fr;gap:56px 58px;overflow:visible;}
   .preview-card{border:0;background:transparent;border-radius:0;padding:0;min-height:0;display:flex;}
   .preview-card .reviewer-row{gap:12px}.avatar{width:44px;height:44px;font-size:20px}.reviewer-row strong{font-size:15px}.reviewer-row span{font-size:14px}
