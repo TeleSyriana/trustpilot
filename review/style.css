@@ -1392,7 +1392,7 @@ html{scroll-padding-top:86px;}
   .tabs-links{gap:34px !important;}
   .tabs-links a{font-size:19px !important;padding:22px 0 18px !important;}
   .tab-actions{gap:12px !important;}
-  .tab-actions a{width:44px !important;height:44px !important;}
+  .tab-actions a{width:34px !important;height:34px !important;}
   .tab-actions svg{width:22px !important;height:22px !important;}
 }
 
@@ -1431,7 +1431,7 @@ body{padding-top:68px!important;}
 .tabs-links a.active{color:#222!important;font-weight:700!important;}
 .tabs-links a.active::after{content:""!important;position:absolute!important;left:0!important;right:0!important;bottom:0!important;height:4px!important;background:#222!important;}
 .tab-actions{display:flex!important;align-items:center!important;gap:14px!important;margin-left:20px!important;}
-.tab-actions a{height:40px!important;min-width:40px!important;border-radius:999px!important;border:1.4px solid var(--blue)!important;color:var(--blue)!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 14px!important;background:#fff!important;}
+.tab-actions a{height:30px!important;min-width:30px!important;border-radius:999px!important;border:1.4px solid var(--blue)!important;color:var(--blue)!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0 14px!important;background:#fff!important;}
 .tab-actions a:first-child{min-width:160px!important;}
 .tab-actions a:first-child::before{content:"Visit website";margin-right:9px;font-size:14px;font-weight:700;}
 .tab-actions a:nth-child(2){min-width:170px!important;background:var(--blue)!important;color:#fff!important;}
@@ -1473,8 +1473,8 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   .tab-actions a:first-child,
   .tab-actions a:nth-child(2){
     width:52px!important;
-    min-width:52px!important;
-    max-width:52px!important;
+    min-width:32px!important;
+    max-width:32px!important;
     height:52px!important;
     border-radius:50%!important;
     padding:0!important;
@@ -1499,10 +1499,10 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   .tab-actions a,
   .tab-actions a:first-child,
   .tab-actions a:nth-child(2){
-    width:44px!important;
-    min-width:44px!important;
-    max-width:44px!important;
-    height:44px!important;
+    width:34px!important;
+    min-width:34px!important;
+    max-width:34px!important;
+    height:34px!important;
     flex:0 0 44px!important;
   }
   .tab-actions a::before,
