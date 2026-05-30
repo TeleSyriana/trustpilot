@@ -1388,7 +1388,7 @@ html{scroll-padding-top:86px;}
 
 @media (max-width:480px){
   body{padding-top:68px !important;}
-  .tabs-bar{height:68px !important;min-height:68px !important;padding:0 18px !important;}
+  .tabs-bar{height:55px !important;min-height:55px !important;padding:0 18px !important;}
   .tabs-links{gap:34px !important;}
   .tabs-links a{font-size:19px !important;padding:22px 0 18px !important;}
   .tab-actions{gap:12px !important;}
