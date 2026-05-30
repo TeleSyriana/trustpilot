@@ -15,7 +15,6 @@ const reviews = [
     rating: 5,
     initials: 'CV',
     avatarType: 'blue',
-    avatarImage: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"><rect width="72" height="72" fill="%23f6efe6"/><circle cx="36" cy="25" r="12" fill="%23d1a77c"/><path d="M18 60c3-12 11-18 18-18s15 6 18 18" fill="%237c9ec2"/><path d="M23 22c4-9 23-10 26 0-2-8-8-14-13-14s-11 6-13 14Z" fill="%234a3323"/><rect x="27" y="25" width="8" height="3" rx="1.5" fill="%23322"/><rect x="37" y="25" width="8" height="3" rx="1.5" fill="%23322"/><path d="M32 31h8" stroke="%23322" stroke-width="2"/></svg>',
     body: "I initially ordered the wrong item by mistake, but the support team handled it very smoothly. They responded the next day, provided a return label, and qu...",
     fullBody: "I initially ordered the wrong item by mistake (iPhone 15 Pro case instead of iPhone 15), but the support team handled it very smoothly. They responded the next day, provided a return label, and quickly arranged the correct replacement.",
     experienceDate: 'Apr 19, 2026',
