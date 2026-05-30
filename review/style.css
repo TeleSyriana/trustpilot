@@ -232,7 +232,7 @@ svg{display:block}
 .reviewer-row{display:flex;align-items:flex-start;gap:12px}
 .reviewer-row strong{font-size:17px}
 .reviewer-row span{display:block;color:#616161;font-size:15px;margin-top:3px}
-.avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:26px;flex:none;overflow:hidden}
+.avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:20px;flex:none;overflow:hidden}
 .avatar img{width:100%;height:100%;object-fit:cover}
 .avatar.teal{background:#435d67}.avatar.purple{background:#7b2fb8}.avatar.yellow{background:#efe19e;color:#222}.avatar.blue{background:#6195d8}.avatar.slate{background:#687484}.avatar.pink{background:#cb9baa}.avatar.dark{background:#2d3750}.avatar.photo{padding:0;background:#fff;border:2px solid #ed67aa}
 .preview-stars,.full-stars{display:flex;gap:2px;margin:14px 0 12px}
