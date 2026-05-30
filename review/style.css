@@ -1465,7 +1465,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   .mobile-menu span{position:absolute!important;left:1px!important;width:26px!important;height:2px!important;background:#9bb0ff!important;border-radius:999px!important;transition:transform .18s ease,top .18s ease,opacity .18s ease!important;}
   .mobile-menu span:nth-child(1){top:5px!important}.mobile-menu span:nth-child(2){top:13px!important}.mobile-menu span:nth-child(3){top:21px!important}
   body.mobile-menu-open .mobile-menu span:nth-child(1){top:13px!important;transform:rotate(45deg)!important;}body.mobile-menu-open .mobile-menu span:nth-child(2){opacity:0!important;}body.mobile-menu-open .mobile-menu span:nth-child(3){top:13px!important;transform:rotate(-45deg)!important;}
-  .tabs-bar{height:72px!important;min-height:72px!important;padding:0 22px!important;justify-content:space-between!important;gap:0!important;}
+  .tabs-bar{height:60px!important;min-height:55px!important;padding:0 22px!important;justify-content:space-between!important;gap:0!important;}
   .tabs-links{gap:44px!important;}
   .tabs-links a{font-size:21px!important;padding:24px 0 19px!important;}
   .tab-actions{gap:14px!important;margin-left:0!important;flex:0 0 auto!important;}
@@ -1492,7 +1492,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   .mobile-icons,.mobile-actions{gap:16px!important;}
   .mobile-icons svg,.mobile-actions svg,.mobile-bell svg,.mobile-search-trigger svg{width:24px!important;height:24px!important;}
   .mobile-menu{width:26px!important;height:26px!important}.mobile-menu span{width:25px!important}.mobile-menu span:nth-child(1){top:4px!important}.mobile-menu span:nth-child(2){top:12px!important}.mobile-menu span:nth-child(3){top:20px!important}body.mobile-menu-open .mobile-menu span:nth-child(1),body.mobile-menu-open .mobile-menu span:nth-child(3){top:12px!important;}
-  .tabs-bar{height:68px!important;min-height:68px!important;padding:0 18px!important;}
+  .tabs-bar{height:55px!important;min-height:55px!important;padding:0 18px!important;}
   .tabs-links{gap:34px!important;}
   .tabs-links a{font-size:19px!important;padding:22px 0 18px!important;}
   .tab-actions{gap:12px!important;flex:0 0 auto!important;}
