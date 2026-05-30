@@ -2108,11 +2108,14 @@ body.notifications-open .notif-panel{transform:translateX(0);}
 
 /* v-next: decouple mobile review summary star from header logo sizing */
 .review-score-star{
-  width:36px !important;
-  height:36px !important;
-  flex:0 0 56px !important;
-  display:block !important;
-  fill:rgb(3 190 138) !important;
+    min-width: 96px !important;
+    min-height: 36px !important;
+    flex: 0 0 56px !important;
+    display: block !important;
+    fill: rgb(3 190 138) !important;
+    position: inherit;
+    margin-bottom: -60px;
+    margin-right: -60px;
 }
 
 @media (max-width: 960px){
