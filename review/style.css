@@ -249,7 +249,7 @@ svg{display:block}
 .contact-section{padding:42px 22px 10px;border-top:1px solid var(--line);margin:42px 22px 0}
 .contact-section h2{font-size:24px;margin:0 0 22px}
 .contact-list{display:flex;flex-direction:column;gap:20px}
-.contact-list a{display:inline-flex;align-items:center;gap:12px;color:#222;font-size:18px;text-decoration:underline;text-underline-offset:3px}
+.contact-list a{display:inline-flex;align-items:center;gap:12px;color:#222;font-size:16px;text-decoration:underline;text-underline-offset:3px}
 .contact-list a svg{width:20px;height:20px;stroke:#222}
 .reviews-shell{max-width:1320px;margin:0 auto;padding:8px 22px 48px}
 .reviews-layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:48px;align-items:start}
