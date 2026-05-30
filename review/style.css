@@ -2115,7 +2115,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
     fill: rgb(3 190 138) !important;
     position: inherit;
     margin-bottom: -60px;
-    margin-right: -60px;
+    margin-right: -70px;
 }
 
 @media (max-width: 960px){
