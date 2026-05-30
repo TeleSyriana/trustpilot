@@ -2111,7 +2111,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   height:36px !important;
   flex:0 0 56px !important;
   display:block !important;
-  fill:rgb(255, 206, 0) !important;
+  fill:rgb(3 190 138) !important;
 }
 
 @media (max-width: 960px){
