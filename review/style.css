@@ -1652,6 +1652,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
     font-size:24px !important;
     line-height:1 !important;
     font-weight:700 !important;
+    margin-left: -10px !important;
   }
 
   .filter-panel h2{
