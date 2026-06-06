@@ -259,8 +259,8 @@ svg{display:block}
 .filter-scoreline strong{font-size:46px;letter-spacing:-1px}
 .filter-panel h2{font-size:58px;letter-spacing:-2px;line-height:1;margin:0 0 20px}
 .review-total{display:flex;align-items:center;gap:10px;font-size:17px;color:#616161;margin-bottom:22px;flex-wrap:wrap}
-.review-total strong{font-size:20px;color:#555}
-.review-total a{color:var(--blue);font-size:20px}
+.review-total strong{font-size:14px;color:#555}
+.review-total a{color:var(--blue);font-size:14px}
 .filter-box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 24px}
 .filter-row{display:grid;grid-template-columns:50px 94px 1fr 60px;align-items:center;gap:14px;margin:0 !important;font-size:26px}
 .filter-row input{appearance:none;width:40px;height:40px;border:2px solid #807b73;border-radius:8px;background:#fff}
@@ -1695,7 +1695,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
     align-items:center !important;
     gap:16px !important;
     margin:16px 0 !important;
-    font-size:22px !important;
+    font-size:16px !important;
     line-height:1.1 !important;
   }
 
