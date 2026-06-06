@@ -1707,7 +1707,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
   }
 
   .filter-row i{
-    height:22px !important;
+    height:16px !important;
     border-radius:999px !important;
     background:#e9e7e4 !important;
   }
