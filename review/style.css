@@ -1473,6 +1473,7 @@ body.notifications-open .notif-panel{transform:translateX(0);}
     width:52px!important;
     min-width:32px!important;
     max-width:32px!important;
+    max-height: 32px !important;
     height:52px!important;
     border-radius:50%!important;
     padding:0!important;
