@@ -217,7 +217,7 @@ textarea,input[type=text],input[type=date]{font-size:16px}
   <main class="page">
     <section class="company-card" aria-label="Company being reviewed">
       <img class="company-logo" src="assets/ipro-logo.png" alt="iPro" />
-      <div><strong>iPro</strong><span>iprostore.co.uk</span></div>
+      <div><strong>iPro</strong><span>iproultra.com</span></div>
     </section>
 
     <section id="rateStep" class="rate-step">
@@ -418,7 +418,7 @@ textarea,input[type=text],input[type=date]{font-size:16px}
         
         if (rating >= 4) {
           localStorage.setItem('iproSelectedRating', String(rating));
-          window.location.assign('https://uk.trustpilot.com/evaluate/iprostore.co.uk');
+          window.location.assign('https://uk.trustpilot.com/evaluate/iproultra.com');
           return;
         }
 
@@ -569,7 +569,7 @@ selector.dataset.hover = rating;
         body: experienceText.value.trim(),
         date: experienceDate.value,
         companyName: 'iPro',
-        companyDomain: 'iprostore.co.uk',
+        companyDomain: 'iproultra.com',
         logo: 'assets/ipro-logo.png'
       };
 
@@ -584,7 +584,7 @@ selector.dataset.hover = rating;
 function redirectAfterReviewByRating(finalRating) {
   const parsedRating = Number(finalRating || 0);
   if (parsedRating >= 4) {
-    window.location.assign('https://uk.trustpilot.com/evaluate/iprostore.co.uk');
+    window.location.assign('https://uk.trustpilot.com/evaluate/iproultra.com');
     return;
   }
   window.location.assign('review/pending-review.html');
