@@ -467,11 +467,11 @@ const reviews = [
 
 ];
 
-// Fictional exam sample reviews; added names are visibly marked (Sample).
+// Fictional exam sample reviews; added names are visibly marked  .
 // The original review records above remain unchanged.
 reviews.push(
   {
-    name: "Casey Q. (Sample)",
+    name: "Casey Q.  ",
     date: "May 18, 2026",
     rating: 1,
     initials: "CQ",
@@ -481,7 +481,7 @@ reviews.push(
     experienceDate: "May 17, 2026"
   },
   {
-    name: "Dana Z. (Sample)",
+    name: "Dana Z.  ",
     date: "May 18, 2026",
     rating: 2,
     initials: "DZ",
@@ -491,7 +491,7 @@ reviews.push(
     experienceDate: "May 16, 2026"
   },
   {
-    name: "Ellis Q. (Sample)",
+    name: "Ellis Q.  ",
     date: "May 18, 2026",
     rating: 2,
     initials: "EQ",
@@ -501,7 +501,7 @@ reviews.push(
     experienceDate: "May 15, 2026"
   },
   {
-    name: "Finley Z. (Sample)",
+    name: "Finley Z.  ",
     date: "May 18, 2026",
     rating: 3,
     initials: "FZ",
@@ -511,7 +511,7 @@ reviews.push(
     experienceDate: "May 17, 2026"
   },
   {
-    name: "Greer Q. (Sample)",
+    name: "Greer Q.  ",
     date: "May 17, 2026",
     rating: 3,
     initials: "GQ",
@@ -521,7 +521,7 @@ reviews.push(
     experienceDate: "May 15, 2026"
   },
   {
-    name: "Harper Z. (Sample)",
+    name: "Harper Z.  ",
     date: "May 17, 2026",
     rating: 4,
     initials: "HZ",
@@ -531,7 +531,7 @@ reviews.push(
     experienceDate: "May 14, 2026"
   },
   {
-    name: "Aaron B. (Sample)",
+    name: "Aaron B.  ",
     date: "May 17, 2026",
     rating: 5,
     initials: "AB",
@@ -541,7 +541,7 @@ reviews.push(
     experienceDate: "May 16, 2026"
   },
   {
-    name: "Mabel G. (Sample)",
+    name: "Mabel G.  ",
     date: "May 17, 2026",
     rating: 5,
     initials: "MG",
@@ -551,7 +551,7 @@ reviews.push(
     experienceDate: "May 15, 2026"
   },
   {
-    name: "Aisha D. (Sample)",
+    name: "Aisha D.  ",
     date: "May 16, 2026",
     rating: 5,
     initials: "AD",
@@ -561,7 +561,7 @@ reviews.push(
     experienceDate: "May 13, 2026"
   },
   {
-    name: "Magnus T. (Sample)",
+    name: "Magnus T.  ",
     date: "May 16, 2026",
     rating: 5,
     initials: "MT",
@@ -571,7 +571,7 @@ reviews.push(
     experienceDate: "May 15, 2026"
   },
   {
-    name: "Alan F. (Sample)",
+    name: "Alan F.  ",
     date: "May 16, 2026",
     rating: 5,
     initials: "AF",
@@ -581,7 +581,7 @@ reviews.push(
     experienceDate: "May 14, 2026"
   },
   {
-    name: "Mariam K. (Sample)",
+    name: "Mariam K.  ",
     date: "May 16, 2026",
     rating: 5,
     initials: "MK",
@@ -591,7 +591,7 @@ reviews.push(
     experienceDate: "May 13, 2026"
   },
   {
-    name: "Alina R. (Sample)",
+    name: "Alina R.  ",
     date: "May 15, 2026",
     rating: 5,
     initials: "AR",
@@ -601,7 +601,7 @@ reviews.push(
     experienceDate: "May 14, 2026"
   },
   {
-    name: "Marcus V. (Sample)",
+    name: "Marcus V.  ",
     date: "May 15, 2026",
     rating: 5,
     initials: "MV",
@@ -611,7 +611,7 @@ reviews.push(
     experienceDate: "May 13, 2026"
   },
   {
-    name: "Amelia S. (Sample)",
+    name: "Amelia S.  ",
     date: "May 15, 2026",
     rating: 5,
     initials: "AS",
@@ -621,7 +621,7 @@ reviews.push(
     experienceDate: "May 12, 2026"
   },
   {
-    name: "Martha J. (Sample)",
+    name: "Martha J.  ",
     date: "May 15, 2026",
     rating: 5,
     initials: "MJ",
@@ -631,7 +631,7 @@ reviews.push(
     experienceDate: "May 14, 2026"
   },
   {
-    name: "Andrew K. (Sample)",
+    name: "Andrew K.  ",
     date: "May 14, 2026",
     rating: 5,
     initials: "AK",
@@ -641,7 +641,7 @@ reviews.push(
     experienceDate: "May 12, 2026"
   },
   {
-    name: "Mateo R. (Sample)",
+    name: "Mateo R.  ",
     date: "May 14, 2026",
     rating: 5,
     initials: "MR",
@@ -651,7 +651,7 @@ reviews.push(
     experienceDate: "May 11, 2026"
   },
   {
-    name: "Anika P. (Sample)",
+    name: "Anika P.  ",
     date: "May 14, 2026",
     rating: 5,
     initials: "AP",
@@ -661,7 +661,7 @@ reviews.push(
     experienceDate: "May 13, 2026"
   },
   {
-    name: "Meera S. (Sample)",
+    name: "Meera S.  ",
     date: "May 14, 2026",
     rating: 5,
     initials: "MS",
@@ -671,7 +671,7 @@ reviews.push(
     experienceDate: "May 12, 2026"
   },
   {
-    name: "Arjun T. (Sample)",
+    name: "Arjun T.  ",
     date: "May 13, 2026",
     rating: 5,
     initials: "AT",
@@ -681,7 +681,7 @@ reviews.push(
     experienceDate: "May 10, 2026"
   },
   {
-    name: "Megan D. (Sample)",
+    name: "Megan D.  ",
     date: "May 13, 2026",
     rating: 5,
     initials: "MD",
@@ -691,7 +691,7 @@ reviews.push(
     experienceDate: "May 12, 2026"
   },
   {
-    name: "Ava M. (Sample)",
+    name: "Ava M.  ",
     date: "May 13, 2026",
     rating: 5,
     initials: "AM",
@@ -701,7 +701,7 @@ reviews.push(
     experienceDate: "May 11, 2026"
   },
   {
-    name: "Milo P. (Sample)",
+    name: "Milo P.  ",
     date: "May 13, 2026",
     rating: 5,
     initials: "MP",
@@ -711,7 +711,7 @@ reviews.push(
     experienceDate: "May 10, 2026"
   },
   {
-    name: "Beatrice H. (Sample)",
+    name: "Beatrice H.  ",
     date: "May 12, 2026",
     rating: 5,
     initials: "BH",
@@ -721,7 +721,7 @@ reviews.push(
     experienceDate: "May 11, 2026"
   },
   {
-    name: "Mina H. (Sample)",
+    name: "Mina H.  ",
     date: "May 12, 2026",
     rating: 5,
     initials: "MH",
@@ -731,7 +731,7 @@ reviews.push(
     experienceDate: "May 10, 2026"
   },
   {
-    name: "Ben V. (Sample)",
+    name: "Ben V.  ",
     date: "May 12, 2026",
     rating: 5,
     initials: "BV",
@@ -741,7 +741,7 @@ reviews.push(
     experienceDate: "May 9, 2026"
   },
   {
-    name: "Moira B. (Sample)",
+    name: "Moira B.  ",
     date: "May 12, 2026",
     rating: 5,
     initials: "MB",
@@ -751,7 +751,7 @@ reviews.push(
     experienceDate: "May 11, 2026"
   },
   {
-    name: "Bethany J. (Sample)",
+    name: "Bethany J.  ",
     date: "May 11, 2026",
     rating: 5,
     initials: "BJ",
@@ -761,7 +761,7 @@ reviews.push(
     experienceDate: "May 9, 2026"
   },
   {
-    name: "Murad F. (Sample)",
+    name: "Murad F.  ",
     date: "May 11, 2026",
     rating: 5,
     initials: "MF",
@@ -771,7 +771,7 @@ reviews.push(
     experienceDate: "May 8, 2026"
   },
   {
-    name: "Bilal N. (Sample)",
+    name: "Bilal N.  ",
     date: "May 11, 2026",
     rating: 5,
     initials: "BN",
@@ -781,7 +781,7 @@ reviews.push(
     experienceDate: "May 10, 2026"
   },
   {
-    name: "Nadia E. (Sample)",
+    name: "Nadia E.  ",
     date: "May 11, 2026",
     rating: 5,
     initials: "NE",
@@ -791,7 +791,7 @@ reviews.push(
     experienceDate: "May 9, 2026"
   },
   {
-    name: "Bonnie E. (Sample)",
+    name: "Bonnie E.  ",
     date: "May 10, 2026",
     rating: 5,
     initials: "BE",
@@ -801,7 +801,7 @@ reviews.push(
     experienceDate: "May 7, 2026"
   },
   {
-    name: "Nathan C. (Sample)",
+    name: "Nathan C.  ",
     date: "May 10, 2026",
     rating: 5,
     initials: "NC",
@@ -811,7 +811,7 @@ reviews.push(
     experienceDate: "May 9, 2026"
   },
   {
-    name: "Bradley C. (Sample)",
+    name: "Bradley C.  ",
     date: "May 10, 2026",
     rating: 5,
     initials: "BC",
@@ -821,7 +821,7 @@ reviews.push(
     experienceDate: "May 8, 2026"
   },
   {
-    name: "Neha L. (Sample)",
+    name: "Neha L.  ",
     date: "May 10, 2026",
     rating: 5,
     initials: "NL",
@@ -831,7 +831,7 @@ reviews.push(
     experienceDate: "May 7, 2026"
   },
   {
-    name: "Callum D. (Sample)",
+    name: "Callum D.  ",
     date: "May 9, 2026",
     rating: 5,
     initials: "CD",
@@ -841,7 +841,7 @@ reviews.push(
     experienceDate: "May 8, 2026"
   },
   {
-    name: "Neil A. (Sample)",
+    name: "Neil A.  ",
     date: "May 9, 2026",
     rating: 5,
     initials: "NA",
@@ -851,7 +851,7 @@ reviews.push(
     experienceDate: "May 7, 2026"
   },
   {
-    name: "Carla W. (Sample)",
+    name: "Carla W.  ",
     date: "May 9, 2026",
     rating: 5,
     initials: "CW",
@@ -861,7 +861,7 @@ reviews.push(
     experienceDate: "May 6, 2026"
   },
   {
-    name: "Niamh W. (Sample)",
+    name: "Niamh W.  ",
     date: "May 9, 2026",
     rating: 5,
     initials: "NW",
@@ -871,7 +871,7 @@ reviews.push(
     experienceDate: "May 8, 2026"
   },
   {
-    name: "Catherine R. (Sample)",
+    name: "Catherine R.  ",
     date: "May 8, 2026",
     rating: 5,
     initials: "CR",
@@ -881,7 +881,7 @@ reviews.push(
     experienceDate: "May 6, 2026"
   },
   {
-    name: "Nico M. (Sample)",
+    name: "Nico M.  ",
     date: "May 8, 2026",
     rating: 5,
     initials: "NM",
@@ -891,7 +891,7 @@ reviews.push(
     experienceDate: "May 5, 2026"
   },
   {
-    name: "Cedric L. (Sample)",
+    name: "Cedric L.  ",
     date: "May 8, 2026",
     rating: 5,
     initials: "CL",
@@ -901,7 +901,7 @@ reviews.push(
     experienceDate: "May 7, 2026"
   },
   {
-    name: "Noor I. (Sample)",
+    name: "Noor I.  ",
     date: "May 8, 2026",
     rating: 5,
     initials: "NI",
@@ -911,7 +911,7 @@ reviews.push(
     experienceDate: "May 6, 2026"
   },
   {
-    name: "Ciara S. (Sample)",
+    name: "Ciara S.  ",
     date: "May 7, 2026",
     rating: 5,
     initials: "CS",
@@ -921,7 +921,7 @@ reviews.push(
     experienceDate: "May 4, 2026"
   },
   {
-    name: "Norbert Z. (Sample)",
+    name: "Norbert Z.  ",
     date: "May 7, 2026",
     rating: 5,
     initials: "NZ",
@@ -931,7 +931,7 @@ reviews.push(
     experienceDate: "May 6, 2026"
   },
   {
-    name: "Connor H. (Sample)",
+    name: "Connor H.  ",
     date: "May 7, 2026",
     rating: 5,
     initials: "CH",
@@ -941,7 +941,7 @@ reviews.push(
     experienceDate: "May 5, 2026"
   },
   {
-    name: "Ola U. (Sample)",
+    name: "Ola U.  ",
     date: "May 7, 2026",
     rating: 5,
     initials: "OU",
@@ -951,7 +951,7 @@ reviews.push(
     experienceDate: "May 4, 2026"
   },
   {
-    name: "Dahlia P. (Sample)",
+    name: "Dahlia P.  ",
     date: "May 6, 2026",
     rating: 5,
     initials: "DP",
@@ -961,7 +961,7 @@ reviews.push(
     experienceDate: "May 5, 2026"
   },
   {
-    name: "Oliver N. (Sample)",
+    name: "Oliver N.  ",
     date: "May 6, 2026",
     rating: 5,
     initials: "ON",
@@ -971,7 +971,7 @@ reviews.push(
     experienceDate: "May 4, 2026"
   },
   {
-    name: "Damien F. (Sample)",
+    name: "Damien F.  ",
     date: "May 6, 2026",
     rating: 5,
     initials: "DF",
@@ -981,7 +981,7 @@ reviews.push(
     experienceDate: "May 3, 2026"
   },
   {
-    name: "Omar Q. (Sample)",
+    name: "Omar Q.  ",
     date: "May 6, 2026",
     rating: 5,
     initials: "OQ",
@@ -991,7 +991,7 @@ reviews.push(
     experienceDate: "May 5, 2026"
   },
   {
-    name: "Daria K. (Sample)",
+    name: "Daria K.  ",
     date: "May 5, 2026",
     rating: 5,
     initials: "DK",
@@ -1001,7 +1001,7 @@ reviews.push(
     experienceDate: "May 3, 2026"
   },
   {
-    name: "Orla F. (Sample)",
+    name: "Orla F.  ",
     date: "May 5, 2026",
     rating: 5,
     initials: "OF",
@@ -1011,7 +1011,7 @@ reviews.push(
     experienceDate: "May 2, 2026"
   },
   {
-    name: "Dean M. (Sample)",
+    name: "Dean M.  ",
     date: "May 5, 2026",
     rating: 5,
     initials: "DM",
@@ -1021,7 +1021,7 @@ reviews.push(
     experienceDate: "May 4, 2026"
   },
   {
-    name: "Otis D. (Sample)",
+    name: "Otis D.  ",
     date: "May 5, 2026",
     rating: 5,
     initials: "OD",
@@ -1031,7 +1031,7 @@ reviews.push(
     experienceDate: "May 3, 2026"
   },
   {
-    name: "Denise T. (Sample)",
+    name: "Denise T.  ",
     date: "May 4, 2026",
     rating: 5,
     initials: "DT",
@@ -1041,7 +1041,7 @@ reviews.push(
     experienceDate: "May 1, 2026"
   },
   {
-    name: "Paige S. (Sample)",
+    name: "Paige S.  ",
     date: "May 4, 2026",
     rating: 5,
     initials: "PS",
@@ -1051,7 +1051,7 @@ reviews.push(
     experienceDate: "May 3, 2026"
   },
   {
-    name: "Dexter B. (Sample)",
+    name: "Dexter B.  ",
     date: "May 4, 2026",
     rating: 5,
     initials: "DB",
@@ -1061,7 +1061,7 @@ reviews.push(
     experienceDate: "May 2, 2026"
   },
   {
-    name: "Pavel K. (Sample)",
+    name: "Pavel K.  ",
     date: "May 4, 2026",
     rating: 5,
     initials: "PK",
@@ -1071,7 +1071,7 @@ reviews.push(
     experienceDate: "May 1, 2026"
   },
   {
-    name: "Eden C. (Sample)",
+    name: "Eden C.  ",
     date: "May 3, 2026",
     rating: 5,
     initials: "EC",
@@ -1081,7 +1081,7 @@ reviews.push(
     experienceDate: "May 2, 2026"
   },
   {
-    name: "Pearl T. (Sample)",
+    name: "Pearl T.  ",
     date: "May 3, 2026",
     rating: 5,
     initials: "PT",
@@ -1091,7 +1091,7 @@ reviews.push(
     experienceDate: "May 1, 2026"
   },
   {
-    name: "Eleanor V. (Sample)",
+    name: "Eleanor V.  ",
     date: "May 3, 2026",
     rating: 5,
     initials: "EV",
@@ -1101,7 +1101,7 @@ reviews.push(
     experienceDate: "Apr 30, 2026"
   },
   {
-    name: "Peter Y. (Sample)",
+    name: "Peter Y.  ",
     date: "May 3, 2026",
     rating: 5,
     initials: "PY",
@@ -1111,7 +1111,7 @@ reviews.push(
     experienceDate: "May 2, 2026"
   },
   {
-    name: "Elias N. (Sample)",
+    name: "Elias N.  ",
     date: "May 2, 2026",
     rating: 5,
     initials: "EN",
@@ -1121,7 +1121,7 @@ reviews.push(
     experienceDate: "Apr 30, 2026"
   },
   {
-    name: "Pia C. (Sample)",
+    name: "Pia C.  ",
     date: "May 2, 2026",
     rating: 5,
     initials: "PC",
@@ -1131,7 +1131,7 @@ reviews.push(
     experienceDate: "Apr 29, 2026"
   },
   {
-    name: "Elodie J. (Sample)",
+    name: "Elodie J.  ",
     date: "May 2, 2026",
     rating: 5,
     initials: "EJ",
@@ -1141,7 +1141,7 @@ reviews.push(
     experienceDate: "May 1, 2026"
   },
   {
-    name: "Priya B. (Sample)",
+    name: "Priya B.  ",
     date: "May 2, 2026",
     rating: 5,
     initials: "PB",
@@ -1151,7 +1151,7 @@ reviews.push(
     experienceDate: "Apr 30, 2026"
   },
   {
-    name: "Eric R. (Sample)",
+    name: "Eric R.  ",
     date: "May 1, 2026",
     rating: 5,
     initials: "ER",
@@ -1161,7 +1161,7 @@ reviews.push(
     experienceDate: "Apr 28, 2026"
   },
   {
-    name: "Quinn R. (Sample)",
+    name: "Quinn R.  ",
     date: "May 1, 2026",
     rating: 5,
     initials: "QR",
@@ -1171,7 +1171,7 @@ reviews.push(
     experienceDate: "Apr 30, 2026"
   },
   {
-    name: "Erin D. (Sample)",
+    name: "Erin D.  ",
     date: "May 1, 2026",
     rating: 5,
     initials: "ED",
@@ -1181,7 +1181,7 @@ reviews.push(
     experienceDate: "Apr 29, 2026"
   },
   {
-    name: "Rafael H. (Sample)",
+    name: "Rafael H.  ",
     date: "May 1, 2026",
     rating: 5,
     initials: "RH",
@@ -1191,7 +1191,7 @@ reviews.push(
     experienceDate: "Apr 28, 2026"
   },
   {
-    name: "Esme W. (Sample)",
+    name: "Esme W.  ",
     date: "Apr 30, 2026",
     rating: 5,
     initials: "EW",
@@ -1201,7 +1201,7 @@ reviews.push(
     experienceDate: "Apr 29, 2026"
   },
   {
-    name: "Rania M. (Sample)",
+    name: "Rania M.  ",
     date: "Apr 30, 2026",
     rating: 5,
     initials: "RM",
@@ -1211,7 +1211,7 @@ reviews.push(
     experienceDate: "Apr 28, 2026"
   },
   {
-    name: "Farah L. (Sample)",
+    name: "Farah L.  ",
     date: "Apr 30, 2026",
     rating: 5,
     initials: "FL",
@@ -1221,7 +1221,7 @@ reviews.push(
     experienceDate: "Apr 27, 2026"
   },
   {
-    name: "Rebecca P. (Sample)",
+    name: "Rebecca P.  ",
     date: "Apr 30, 2026",
     rating: 5,
     initials: "RP",
@@ -1231,7 +1231,7 @@ reviews.push(
     experienceDate: "Apr 29, 2026"
   },
   {
-    name: "Felix S. (Sample)",
+    name: "Felix S.  ",
     date: "Apr 29, 2026",
     rating: 5,
     initials: "FS",
@@ -1241,7 +1241,7 @@ reviews.push(
     experienceDate: "Apr 27, 2026"
   },
   {
-    name: "Reuben V. (Sample)",
+    name: "Reuben V.  ",
     date: "Apr 29, 2026",
     rating: 5,
     initials: "RV",
@@ -1251,7 +1251,7 @@ reviews.push(
     experienceDate: "Apr 26, 2026"
   },
   {
-    name: "Fiona H. (Sample)",
+    name: "Fiona H.  ",
     date: "Apr 29, 2026",
     rating: 5,
     initials: "FH",
@@ -1261,7 +1261,7 @@ reviews.push(
     experienceDate: "Apr 28, 2026"
   },
   {
-    name: "Rina L. (Sample)",
+    name: "Rina L.  ",
     date: "Apr 29, 2026",
     rating: 5,
     initials: "RL",
@@ -1271,7 +1271,7 @@ reviews.push(
     experienceDate: "Apr 27, 2026"
   },
   {
-    name: "Francis P. (Sample)",
+    name: "Francis P.  ",
     date: "Apr 28, 2026",
     rating: 5,
     initials: "FP",
@@ -1281,7 +1281,7 @@ reviews.push(
     experienceDate: "Apr 25, 2026"
   },
   {
-    name: "Rory G. (Sample)",
+    name: "Rory G.  ",
     date: "Apr 28, 2026",
     rating: 5,
     initials: "RG",
@@ -1291,7 +1291,7 @@ reviews.push(
     experienceDate: "Apr 27, 2026"
   },
   {
-    name: "Freya K. (Sample)",
+    name: "Freya K.  ",
     date: "Apr 28, 2026",
     rating: 5,
     initials: "FK",
@@ -1301,7 +1301,7 @@ reviews.push(
     experienceDate: "Apr 26, 2026"
   },
   {
-    name: "Rowan J. (Sample)",
+    name: "Rowan J.  ",
     date: "Apr 28, 2026",
     rating: 5,
     initials: "RJ",
@@ -1311,7 +1311,7 @@ reviews.push(
     experienceDate: "Apr 25, 2026"
   },
   {
-    name: "Gabriel E. (Sample)",
+    name: "Gabriel E.  ",
     date: "Apr 27, 2026",
     rating: 5,
     initials: "GE",
@@ -1321,7 +1321,7 @@ reviews.push(
     experienceDate: "Apr 26, 2026"
   },
   {
-    name: "Ruth E. (Sample)",
+    name: "Ruth E.  ",
     date: "Apr 27, 2026",
     rating: 5,
     initials: "RE",
@@ -1331,7 +1331,7 @@ reviews.push(
     experienceDate: "Apr 25, 2026"
   },
   {
-    name: "Gemma C. (Sample)",
+    name: "Gemma C.  ",
     date: "Apr 27, 2026",
     rating: 5,
     initials: "GC",
@@ -1341,7 +1341,7 @@ reviews.push(
     experienceDate: "Apr 24, 2026"
   },
   {
-    name: "Sabrina W. (Sample)",
+    name: "Sabrina W.  ",
     date: "Apr 27, 2026",
     rating: 5,
     initials: "SW",
@@ -1351,7 +1351,7 @@ reviews.push(
     experienceDate: "Apr 26, 2026"
   },
   {
-    name: "Grace T. (Sample)",
+    name: "Grace T.  ",
     date: "Apr 26, 2026",
     rating: 5,
     initials: "GT",
@@ -1361,7 +1361,7 @@ reviews.push(
     experienceDate: "Apr 24, 2026"
   },
   {
-    name: "Saeed N. (Sample)",
+    name: "Saeed N.  ",
     date: "Apr 26, 2026",
     rating: 5,
     initials: "SN",
@@ -1371,7 +1371,7 @@ reviews.push(
     experienceDate: "Apr 23, 2026"
   },
   {
-    name: "Hamza B. (Sample)",
+    name: "Hamza B.  ",
     date: "Apr 26, 2026",
     rating: 5,
     initials: "HB",
@@ -1381,7 +1381,7 @@ reviews.push(
     experienceDate: "Apr 25, 2026"
   },
   {
-    name: "Sally D. (Sample)",
+    name: "Sally D.  ",
     date: "Apr 26, 2026",
     rating: 5,
     initials: "SD",
@@ -1391,7 +1391,7 @@ reviews.push(
     experienceDate: "Apr 24, 2026"
   },
   {
-    name: "Hannah M. (Sample)",
+    name: "Hannah M.  ",
     date: "Apr 25, 2026",
     rating: 5,
     initials: "HM",
@@ -1401,7 +1401,7 @@ reviews.push(
     experienceDate: "Apr 22, 2026"
   },
   {
-    name: "Samir A. (Sample)",
+    name: "Samir A.  ",
     date: "Apr 25, 2026",
     rating: 5,
     initials: "SA",
@@ -1411,7 +1411,7 @@ reviews.push(
     experienceDate: "Apr 24, 2026"
   },
   {
-    name: "Harvey R. (Sample)",
+    name: "Harvey R.  ",
     date: "Apr 25, 2026",
     rating: 5,
     initials: "HR",
@@ -1421,7 +1421,7 @@ reviews.push(
     experienceDate: "Apr 23, 2026"
   },
   {
-    name: "Saskia T. (Sample)",
+    name: "Saskia T.  ",
     date: "Apr 25, 2026",
     rating: 5,
     initials: "ST",
@@ -1431,7 +1431,7 @@ reviews.push(
     experienceDate: "Apr 22, 2026"
   },
   {
-    name: "Hazel D. (Sample)",
+    name: "Hazel D.  ",
     date: "Apr 24, 2026",
     rating: 5,
     initials: "HD",
@@ -1441,7 +1441,7 @@ reviews.push(
     experienceDate: "Apr 23, 2026"
   },
   {
-    name: "Serena K. (Sample)",
+    name: "Serena K.  ",
     date: "Apr 24, 2026",
     rating: 5,
     initials: "SK",
@@ -1451,7 +1451,7 @@ reviews.push(
     experienceDate: "Apr 22, 2026"
   },
   {
-    name: "Imogen N. (Sample)",
+    name: "Imogen N.  ",
     date: "Apr 24, 2026",
     rating: 5,
     initials: "IN",
@@ -1461,7 +1461,7 @@ reviews.push(
     experienceDate: "Apr 21, 2026"
   },
   {
-    name: "Sofia H. (Sample)",
+    name: "Sofia H.  ",
     date: "Apr 24, 2026",
     rating: 5,
     initials: "SH",
@@ -1471,7 +1471,7 @@ reviews.push(
     experienceDate: "Apr 23, 2026"
   },
   {
-    name: "Isaac W. (Sample)",
+    name: "Isaac W.  ",
     date: "Apr 23, 2026",
     rating: 5,
     initials: "IW",
@@ -1481,7 +1481,7 @@ reviews.push(
     experienceDate: "Apr 21, 2026"
   },
   {
-    name: "Stefan R. (Sample)",
+    name: "Stefan R.  ",
     date: "Apr 23, 2026",
     rating: 5,
     initials: "SR",
@@ -1491,7 +1491,7 @@ reviews.push(
     experienceDate: "Apr 20, 2026"
   },
   {
-    name: "Isla P. (Sample)",
+    name: "Isla P.  ",
     date: "Apr 23, 2026",
     rating: 5,
     initials: "IP",
@@ -1501,7 +1501,7 @@ reviews.push(
     experienceDate: "Apr 22, 2026"
   },
   {
-    name: "Tara M. (Sample)",
+    name: "Tara M.  ",
     date: "Apr 23, 2026",
     rating: 5,
     initials: "TM",
@@ -1511,7 +1511,7 @@ reviews.push(
     experienceDate: "Apr 21, 2026"
   },
   {
-    name: "Jacob F. (Sample)",
+    name: "Jacob F.  ",
     date: "Apr 22, 2026",
     rating: 5,
     initials: "JF",
@@ -1521,7 +1521,7 @@ reviews.push(
     experienceDate: "Apr 19, 2026"
   },
   {
-    name: "Tobias B. (Sample)",
+    name: "Tobias B.  ",
     date: "Apr 22, 2026",
     rating: 5,
     initials: "TB",
@@ -1531,7 +1531,7 @@ reviews.push(
     experienceDate: "Apr 21, 2026"
   },
   {
-    name: "Jasmine V. (Sample)",
+    name: "Jasmine V.  ",
     date: "Apr 22, 2026",
     rating: 5,
     initials: "JV",
@@ -1541,7 +1541,7 @@ reviews.push(
     experienceDate: "Apr 20, 2026"
   },
   {
-    name: "Uma C. (Sample)",
+    name: "Uma C.  ",
     date: "Apr 22, 2026",
     rating: 5,
     initials: "UC",
@@ -1551,7 +1551,7 @@ reviews.push(
     experienceDate: "Apr 19, 2026"
   },
   {
-    name: "Joanna K. (Sample)",
+    name: "Joanna K.  ",
     date: "Apr 21, 2026",
     rating: 5,
     initials: "JK",
@@ -1561,7 +1561,7 @@ reviews.push(
     experienceDate: "Apr 20, 2026"
   },
   {
-    name: "Vera S. (Sample)",
+    name: "Vera S.  ",
     date: "Apr 21, 2026",
     rating: 5,
     initials: "VS",
@@ -1571,7 +1571,7 @@ reviews.push(
     experienceDate: "Apr 19, 2026"
   },
   {
-    name: "Karim L. (Sample)",
+    name: "Karim L.  ",
     date: "Apr 21, 2026",
     rating: 5,
     initials: "KL",
@@ -1581,7 +1581,7 @@ reviews.push(
     experienceDate: "Apr 18, 2026"
   },
   {
-    name: "Wesley F. (Sample)",
+    name: "Wesley F.  ",
     date: "Apr 21, 2026",
     rating: 5,
     initials: "WF",
@@ -1591,7 +1591,7 @@ reviews.push(
     experienceDate: "Apr 20, 2026"
   },
   {
-    name: "Leila S. (Sample)",
+    name: "Leila S.  ",
     date: "Apr 20, 2026",
     rating: 5,
     initials: "LS",
@@ -1601,7 +1601,7 @@ reviews.push(
     experienceDate: "Apr 18, 2026"
   },
   {
-    name: "Zara P. (Sample)",
+    name: "Zara P.  ",
     date: "Apr 20, 2026",
     rating: 5,
     initials: "ZP",
@@ -1612,10 +1612,10 @@ reviews.push(
   }
 );
 
-// Additional multilingual exam fixtures; every new name retains the English (Sample) label.
+// Additional multilingual exam fixtures; every new name retains the English   label.
 reviews.push(
   {
-    "name": "شادي ي. (Sample)",
+    "name": "شادي ي.  ",
     "date": "Jul 20, 2025",
     "rating": 5,
     "initials": "شي",
@@ -1627,7 +1627,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Lucie R. (Sample)",
+    "name": "Lucie R.  ",
     "date": "Jul 17, 2025",
     "rating": 5,
     "initials": "LR",
@@ -1639,7 +1639,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Samuel Carrillo (Sample)",
+    "name": "Samuel Carrillo  ",
     "date": "Jul 14, 2025",
     "rating": 5,
     "initials": "SC",
@@ -1651,7 +1651,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Alessandro Mancini (Sample)",
+    "name": "Alessandro Mancini  ",
     "date": "Jul 11, 2025",
     "rating": 5,
     "initials": "AM",
@@ -1663,7 +1663,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Sven M. (Sample)",
+    "name": "Sven M.  ",
     "date": "Jul 8, 2025",
     "rating": 5,
     "initials": "SM",
@@ -1675,7 +1675,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Koen Visser (Sample)",
+    "name": "Koen Visser  ",
     "date": "Jul 6, 2025",
     "rating": 4,
     "initials": "KV",
@@ -1687,7 +1687,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "فادي ت. (Sample)",
+    "name": "فادي ت.  ",
     "date": "Jul 3, 2025",
     "rating": 3,
     "initials": "فت",
@@ -1699,7 +1699,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Baptiste C. (Sample)",
+    "name": "Baptiste C.  ",
     "date": "Jun 30, 2025",
     "rating": 5,
     "initials": "BC",
@@ -1711,7 +1711,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Esteban Rosales (Sample)",
+    "name": "Esteban Rosales  ",
     "date": "Jun 27, 2025",
     "rating": 5,
     "initials": "ER",
@@ -1723,7 +1723,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Lorenzo De Luca (Sample)",
+    "name": "Lorenzo De Luca  ",
     "date": "Jun 24, 2025",
     "rating": 3,
     "initials": "LD",
@@ -1735,7 +1735,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Reto Baumann (Sample)",
+    "name": "Reto Baumann  ",
     "date": "Jun 22, 2025",
     "rating": 5,
     "initials": "RB",
@@ -1747,7 +1747,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Pieter de Graaf (Sample)",
+    "name": "Pieter de Graaf  ",
     "date": "Jun 19, 2025",
     "rating": 5,
     "initials": "PG",
@@ -1759,7 +1759,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "جلال س. (Sample)",
+    "name": "جلال س.  ",
     "date": "Jun 16, 2025",
     "rating": 5,
     "initials": "جس",
@@ -1771,7 +1771,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Inès F. (Sample)",
+    "name": "Inès F.  ",
     "date": "Jun 13, 2025",
     "rating": 3,
     "initials": "IF",
@@ -1783,7 +1783,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Elena Marín (Sample)",
+    "name": "Elena Marín  ",
     "date": "Jun 10, 2025",
     "rating": 1,
     "initials": "EM",
@@ -1795,7 +1795,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Giulia Conti (Sample)",
+    "name": "Giulia Conti  ",
     "date": "Jun 8, 2025",
     "rating": 4,
     "initials": "GC",
@@ -1807,7 +1807,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Nadine Frei (Sample)",
+    "name": "Nadine Frei  ",
     "date": "Jun 5, 2025",
     "rating": 5,
     "initials": "NF",
@@ -1819,7 +1819,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Bas Hendriks (Sample)",
+    "name": "Bas Hendriks  ",
     "date": "Jun 2, 2025",
     "rating": 5,
     "initials": "BH",
@@ -1831,7 +1831,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ريم ف. (Sample)",
+    "name": "ريم ف.  ",
     "date": "May 30, 2025",
     "rating": 5,
     "initials": "رف",
@@ -1843,7 +1843,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Loïc T. (Sample)",
+    "name": "Loïc T.  ",
     "date": "May 27, 2025",
     "rating": 5,
     "initials": "LT",
@@ -1855,7 +1855,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Víctor Escudero (Sample)",
+    "name": "Víctor Escudero  ",
     "date": "May 25, 2025",
     "rating": 5,
     "initials": "VE",
@@ -1867,7 +1867,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Davide Greco (Sample)",
+    "name": "Davide Greco  ",
     "date": "May 22, 2025",
     "rating": 4,
     "initials": "DG",
@@ -1879,7 +1879,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Hendrik Voss (Sample)",
+    "name": "Hendrik Voss  ",
     "date": "May 19, 2025",
     "rating": 5,
     "initials": "HV",
@@ -1891,7 +1891,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Sanne de Vries (Sample)",
+    "name": "Sanne de Vries  ",
     "date": "May 16, 2025",
     "rating": 2,
     "initials": "SV",
@@ -1903,7 +1903,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "نور ص. (Sample)",
+    "name": "نور ص.  ",
     "date": "May 13, 2025",
     "rating": 4,
     "initials": "نص",
@@ -1915,7 +1915,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Florian V. (Sample)",
+    "name": "Florian V.  ",
     "date": "May 11, 2025",
     "rating": 5,
     "initials": "FV",
@@ -1927,7 +1927,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Javier Leal (Sample)",
+    "name": "Javier Leal  ",
     "date": "May 8, 2025",
     "rating": 5,
     "initials": "JL",
@@ -1939,7 +1939,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Alice Caruso (Sample)",
+    "name": "Alice Caruso  ",
     "date": "May 5, 2025",
     "rating": 5,
     "initials": "AC",
@@ -1951,7 +1951,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Lukas E. (Sample)",
+    "name": "Lukas E.  ",
     "date": "May 2, 2025",
     "rating": 5,
     "initials": "LE",
@@ -1963,7 +1963,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Jeroen Bakker (Sample)",
+    "name": "Jeroen Bakker  ",
     "date": "Apr 29, 2025",
     "rating": 3,
     "initials": "JB",
@@ -1975,7 +1975,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "فرح ح. (Sample)",
+    "name": "فرح ح.  ",
     "date": "Apr 27, 2025",
     "rating": 5,
     "initials": "فح",
@@ -1987,7 +1987,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Hugo L. (Sample)",
+    "name": "Hugo L.  ",
     "date": "Apr 24, 2025",
     "rating": 2,
     "initials": "HL",
@@ -1999,7 +1999,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Celia Rivas (Sample)",
+    "name": "Celia Rivas  ",
     "date": "Apr 21, 2025",
     "rating": 5,
     "initials": "CR",
@@ -2011,7 +2011,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Beatrice Riva (Sample)",
+    "name": "Beatrice Riva  ",
     "date": "Apr 18, 2025",
     "rating": 5,
     "initials": "BR",
@@ -2023,7 +2023,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Leonie F. (Sample)",
+    "name": "Leonie F.  ",
     "date": "Apr 15, 2025",
     "rating": 4,
     "initials": "LF",
@@ -2035,7 +2035,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Annelies Peeters (Sample)",
+    "name": "Annelies Peeters  ",
     "date": "Apr 13, 2025",
     "rating": 5,
     "initials": "AP",
@@ -2047,7 +2047,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "عبير ق. (Sample)",
+    "name": "عبير ق.  ",
     "date": "Apr 10, 2025",
     "rating": 5,
     "initials": "عق",
@@ -2059,7 +2059,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Zoé H. (Sample)",
+    "name": "Zoé H.  ",
     "date": "Apr 7, 2025",
     "rating": 5,
     "initials": "ZH",
@@ -2071,7 +2071,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Marisol Vega (Sample)",
+    "name": "Marisol Vega  ",
     "date": "Apr 4, 2025",
     "rating": 5,
     "initials": "MV",
@@ -2083,7 +2083,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Emanuele Santoro (Sample)",
+    "name": "Emanuele Santoro  ",
     "date": "Apr 1, 2025",
     "rating": 5,
     "initials": "ES",
@@ -2095,7 +2095,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Annika Busch (Sample)",
+    "name": "Annika Busch  ",
     "date": "Mar 30, 2025",
     "rating": 5,
     "initials": "AB",
@@ -2107,7 +2107,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Maaike Vermeer (Sample)",
+    "name": "Maaike Vermeer  ",
     "date": "Mar 27, 2025",
     "rating": 5,
     "initials": "MV",
@@ -2119,7 +2119,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "حسام هـ. (Sample)",
+    "name": "حسام هـ.  ",
     "date": "Mar 24, 2025",
     "rating": 1,
     "initials": "حه",
@@ -2131,7 +2131,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Maëlle G. (Sample)",
+    "name": "Maëlle G.  ",
     "date": "Mar 21, 2025",
     "rating": 5,
     "initials": "MG",
@@ -2143,7 +2143,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Marta Olivares (Sample)",
+    "name": "Marta Olivares  ",
     "date": "Mar 18, 2025",
     "rating": 4,
     "initials": "MO",
@@ -2155,7 +2155,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Niccolò Longo (Sample)",
+    "name": "Niccolò Longo  ",
     "date": "Mar 16, 2025",
     "rating": 5,
     "initials": "NL",
@@ -2167,7 +2167,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Yvonne D. (Sample)",
+    "name": "Yvonne D.  ",
     "date": "Mar 13, 2025",
     "rating": 5,
     "initials": "YD",
@@ -2179,7 +2179,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Thijs Meijer (Sample)",
+    "name": "Thijs Meijer  ",
     "date": "Mar 10, 2025",
     "rating": 5,
     "initials": "TM",
@@ -2191,7 +2191,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "كريم د. (Sample)",
+    "name": "كريم د.  ",
     "date": "Mar 7, 2025",
     "rating": 5,
     "initials": "كد",
@@ -2203,7 +2203,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Camille D. (Sample)",
+    "name": "Camille D.  ",
     "date": "Mar 4, 2025",
     "rating": 5,
     "initials": "CD",
@@ -2215,7 +2215,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Silvia Montes (Sample)",
+    "name": "Silvia Montes  ",
     "date": "Mar 2, 2025",
     "rating": 5,
     "initials": "SM",
@@ -2227,7 +2227,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Laura Bellini (Sample)",
+    "name": "Laura Bellini  ",
     "date": "Feb 27, 2025",
     "rating": 5,
     "initials": "LB",
@@ -2239,7 +2239,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Anja Richter (Sample)",
+    "name": "Anja Richter  ",
     "date": "Feb 24, 2025",
     "rating": 4,
     "initials": "AR",
@@ -2251,7 +2251,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Wouter Smit (Sample)",
+    "name": "Wouter Smit  ",
     "date": "Feb 21, 2025",
     "rating": 5,
     "initials": "WS",
@@ -2263,7 +2263,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "جود ع. (Sample)",
+    "name": "جود ع.  ",
     "date": "Feb 18, 2025",
     "rating": 5,
     "initials": "جع",
@@ -2275,7 +2275,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Julien M. (Sample)",
+    "name": "Julien M.  ",
     "date": "Feb 16, 2025",
     "rating": 5,
     "initials": "JM",
@@ -2287,7 +2287,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Anaïs Serrano (Sample)",
+    "name": "Anaïs Serrano  ",
     "date": "Feb 13, 2025",
     "rating": 5,
     "initials": "AS",
@@ -2299,7 +2299,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Irene Pellegrini (Sample)",
+    "name": "Irene Pellegrini  ",
     "date": "Feb 10, 2025",
     "rating": 5,
     "initials": "IP",
@@ -2311,7 +2311,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Franziska Berg (Sample)",
+    "name": "Franziska Berg  ",
     "date": "Feb 7, 2025",
     "rating": 5,
     "initials": "FB",
@@ -2323,7 +2323,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Esther Kuiper (Sample)",
+    "name": "Esther Kuiper  ",
     "date": "Feb 4, 2025",
     "rating": 5,
     "initials": "EK",
@@ -2335,7 +2335,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "سارة و. (Sample)",
+    "name": "سارة و.  ",
     "date": "Feb 2, 2025",
     "rating": 4,
     "initials": "سو",
@@ -2347,7 +2347,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Nadia F. (Sample)",
+    "name": "Nadia F.  ",
     "date": "Jan 30, 2025",
     "rating": 5,
     "initials": "NF",
@@ -2359,7 +2359,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Sergio Pardo (Sample)",
+    "name": "Sergio Pardo  ",
     "date": "Jan 27, 2025",
     "rating": 4,
     "initials": "SP",
@@ -2371,7 +2371,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Monica Basile (Sample)",
+    "name": "Monica Basile  ",
     "date": "Jan 24, 2025",
     "rating": 5,
     "initials": "MB",
@@ -2383,7 +2383,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Florian Seidel (Sample)",
+    "name": "Florian Seidel  ",
     "date": "Jan 21, 2025",
     "rating": 4,
     "initials": "FS",
@@ -2395,7 +2395,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Bram van Dijk (Sample)",
+    "name": "Bram van Dijk  ",
     "date": "Jan 19, 2025",
     "rating": 4,
     "initials": "BD",
@@ -2407,7 +2407,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ياسر ك. (Sample)",
+    "name": "ياسر ك.  ",
     "date": "Jan 16, 2025",
     "rating": 4,
     "initials": "يك",
@@ -2419,7 +2419,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Laurent K. (Sample)",
+    "name": "Laurent K.  ",
     "date": "Jan 13, 2025",
     "rating": 5,
     "initials": "LK",
@@ -2431,7 +2431,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Óscar Bermúdez (Sample)",
+    "name": "Óscar Bermúdez  ",
     "date": "Jan 10, 2025",
     "rating": 5,
     "initials": "ÓB",
@@ -2443,7 +2443,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Martina Costa (Sample)",
+    "name": "Martina Costa  ",
     "date": "Jan 7, 2025",
     "rating": 5,
     "initials": "MC",
@@ -2455,7 +2455,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Jonas Feld (Sample)",
+    "name": "Jonas Feld  ",
     "date": "Jan 5, 2025",
     "rating": 5,
     "initials": "JF",
@@ -2467,7 +2467,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Eline Jansen (Sample)",
+    "name": "Eline Jansen  ",
     "date": "Jan 2, 2025",
     "rating": 5,
     "initials": "EJ",
@@ -2479,7 +2479,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "نائل ج. (Sample)",
+    "name": "نائل ج.  ",
     "date": "Dec 30, 2024",
     "rating": 5,
     "initials": "نج",
@@ -2491,7 +2491,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Vincent J. (Sample)",
+    "name": "Vincent J.  ",
     "date": "Dec 27, 2024",
     "rating": 5,
     "initials": "VJ",
@@ -2503,7 +2503,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Carolina Méndez (Sample)",
+    "name": "Carolina Méndez  ",
     "date": "Dec 24, 2024",
     "rating": 5,
     "initials": "CM",
@@ -2515,7 +2515,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Riccardo Marini (Sample)",
+    "name": "Riccardo Marini  ",
     "date": "Dec 22, 2024",
     "rating": 5,
     "initials": "RM",
@@ -2527,7 +2527,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Ralf Zimmer (Sample)",
+    "name": "Ralf Zimmer  ",
     "date": "Dec 19, 2024",
     "rating": 5,
     "initials": "RZ",
@@ -2539,7 +2539,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Pieterjan Wouters (Sample)",
+    "name": "Pieterjan Wouters  ",
     "date": "Dec 16, 2024",
     "rating": 5,
     "initials": "PW",
@@ -2551,7 +2551,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "رنا س. (Sample)",
+    "name": "رنا س.  ",
     "date": "Dec 13, 2024",
     "rating": 5,
     "initials": "رس",
@@ -2563,7 +2563,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Ariane L. (Sample)",
+    "name": "Ariane L.  ",
     "date": "Dec 10, 2024",
     "rating": 5,
     "initials": "AL",
@@ -2575,7 +2575,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Tomás Acosta (Sample)",
+    "name": "Tomás Acosta  ",
     "date": "Dec 8, 2024",
     "rating": 5,
     "initials": "TA",
@@ -2587,7 +2587,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Serena Leone (Sample)",
+    "name": "Serena Leone  ",
     "date": "Dec 5, 2024",
     "rating": 5,
     "initials": "SL",
@@ -2599,7 +2599,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Céline Meier (Sample)",
+    "name": "Céline Meier  ",
     "date": "Dec 2, 2024",
     "rating": 5,
     "initials": "CM",
@@ -2611,7 +2611,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Lotte van Leeuwen (Sample)",
+    "name": "Lotte van Leeuwen  ",
     "date": "Nov 29, 2024",
     "rating": 5,
     "initials": "LL",
@@ -2623,7 +2623,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "رانيا ز. (Sample)",
+    "name": "رانيا ز.  ",
     "date": "Nov 26, 2024",
     "rating": 5,
     "initials": "رز",
@@ -2635,7 +2635,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Anaïs J. (Sample)",
+    "name": "Anaïs J.  ",
     "date": "Nov 24, 2024",
     "rating": 5,
     "initials": "AJ",
@@ -2647,7 +2647,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Diego Salcedo (Sample)",
+    "name": "Diego Salcedo  ",
     "date": "Nov 21, 2024",
     "rating": 3,
     "initials": "DS",
@@ -2659,7 +2659,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Andrea Galli (Sample)",
+    "name": "Andrea Galli  ",
     "date": "Nov 18, 2024",
     "rating": 5,
     "initials": "AG",
@@ -2671,7 +2671,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Bastian Keller (Sample)",
+    "name": "Bastian Keller  ",
     "date": "Nov 15, 2024",
     "rating": 4,
     "initials": "BK",
@@ -2683,7 +2683,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Arjan V. (Sample)",
+    "name": "Arjan V.  ",
     "date": "Nov 12, 2024",
     "rating": 5,
     "initials": "AV",
@@ -2695,7 +2695,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "سليم و. (Sample)",
+    "name": "سليم و.  ",
     "date": "Nov 10, 2024",
     "rating": 5,
     "initials": "سو",
@@ -2707,7 +2707,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Simon D. (Sample)",
+    "name": "Simon D.  ",
     "date": "Nov 7, 2024",
     "rating": 5,
     "initials": "SD",
@@ -2719,7 +2719,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Gonzalo Arias (Sample)",
+    "name": "Gonzalo Arias  ",
     "date": "Nov 4, 2024",
     "rating": 5,
     "initials": "GA",
@@ -2731,7 +2731,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Elisa Romano (Sample)",
+    "name": "Elisa Romano  ",
     "date": "Nov 1, 2024",
     "rating": 5,
     "initials": "ER",
@@ -2743,7 +2743,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Maren Hoffmann (Sample)",
+    "name": "Maren Hoffmann  ",
     "date": "Oct 29, 2024",
     "rating": 1,
     "initials": "MH",
@@ -2755,7 +2755,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Ruben Maas (Sample)",
+    "name": "Ruben Maas  ",
     "date": "Oct 27, 2024",
     "rating": 5,
     "initials": "RM",
@@ -2767,7 +2767,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "زيد م. (Sample)",
+    "name": "زيد م.  ",
     "date": "Oct 24, 2024",
     "rating": 5,
     "initials": "زم",
@@ -2779,7 +2779,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Yasmine E. (Sample)",
+    "name": "Yasmine E.  ",
     "date": "Oct 21, 2024",
     "rating": 5,
     "initials": "YE",
@@ -2791,7 +2791,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Mateo Lozano (Sample)",
+    "name": "Mateo Lozano  ",
     "date": "Oct 18, 2024",
     "rating": 5,
     "initials": "ML",
@@ -2803,7 +2803,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Claudio Bernasconi (Sample)",
+    "name": "Claudio Bernasconi  ",
     "date": "Oct 15, 2024",
     "rating": 5,
     "initials": "CB",
@@ -2815,7 +2815,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Valentina Huber (Sample)",
+    "name": "Valentina Huber  ",
     "date": "Oct 13, 2024",
     "rating": 5,
     "initials": "VH",
@@ -2827,7 +2827,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Femke S. (Sample)",
+    "name": "Femke S.  ",
     "date": "Oct 10, 2024",
     "rating": 4,
     "initials": "FS",
@@ -2839,7 +2839,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "بلال ف. (Sample)",
+    "name": "بلال ف.  ",
     "date": "Oct 7, 2024",
     "rating": 2,
     "initials": "بف",
@@ -2851,7 +2851,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Amélie N. (Sample)",
+    "name": "Amélie N.  ",
     "date": "Oct 4, 2024",
     "rating": 5,
     "initials": "AN",
@@ -2863,7 +2863,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Lucía Ferrer (Sample)",
+    "name": "Lucía Ferrer  ",
     "date": "Oct 1, 2024",
     "rating": 4,
     "initials": "LF",
@@ -2875,7 +2875,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Noemi Soldati (Sample)",
+    "name": "Noemi Soldati  ",
     "date": "Sep 29, 2024",
     "rating": 5,
     "initials": "NS",
@@ -2887,7 +2887,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Markus Leitner (Sample)",
+    "name": "Markus Leitner  ",
     "date": "Sep 26, 2024",
     "rating": 5,
     "initials": "ML",
@@ -2899,7 +2899,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Tessa van Loon (Sample)",
+    "name": "Tessa van Loon  ",
     "date": "Sep 23, 2024",
     "rating": 5,
     "initials": "TL",
@@ -2911,7 +2911,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "يمنى أ. (Sample)",
+    "name": "يمنى أ.  ",
     "date": "Sep 20, 2024",
     "rating": 5,
     "initials": "يأ",
@@ -2923,7 +2923,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Olivier N. (Sample)",
+    "name": "Olivier N.  ",
     "date": "Sep 17, 2024",
     "rating": 5,
     "initials": "ON",
@@ -2935,7 +2935,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Álvaro Nieto (Sample)",
+    "name": "Álvaro Nieto  ",
     "date": "Sep 15, 2024",
     "rating": 4,
     "initials": "ÁN",
@@ -2947,7 +2947,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Federico Barbieri (Sample)",
+    "name": "Federico Barbieri  ",
     "date": "Sep 12, 2024",
     "rating": 5,
     "initials": "FB",
@@ -2959,7 +2959,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Malte S. (Sample)",
+    "name": "Malte S.  ",
     "date": "Sep 9, 2024",
     "rating": 5,
     "initials": "MS",
@@ -2971,7 +2971,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Fleur Brouwer (Sample)",
+    "name": "Fleur Brouwer  ",
     "date": "Sep 6, 2024",
     "rating": 5,
     "initials": "FB",
@@ -2983,7 +2983,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "مريم ن. (Sample)",
+    "name": "مريم ن.  ",
     "date": "Sep 3, 2024",
     "rating": 5,
     "initials": "من",
@@ -2995,7 +2995,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Adrien B. (Sample)",
+    "name": "Adrien B.  ",
     "date": "Sep 1, 2024",
     "rating": 5,
     "initials": "AB",
@@ -3007,7 +3007,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Natalia Rojas (Sample)",
+    "name": "Natalia Rojas  ",
     "date": "Aug 29, 2024",
     "rating": 5,
     "initials": "NR",
@@ -3019,7 +3019,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Camilla Ferraro (Sample)",
+    "name": "Camilla Ferraro  ",
     "date": "Aug 26, 2024",
     "rating": 5,
     "initials": "CF",
@@ -3031,7 +3031,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Matthias Koch (Sample)",
+    "name": "Matthias Koch  ",
     "date": "Aug 23, 2024",
     "rating": 5,
     "initials": "MK",
@@ -3043,7 +3043,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Sander Kok (Sample)",
+    "name": "Sander Kok  ",
     "date": "Aug 20, 2024",
     "rating": 5,
     "initials": "SK",
@@ -3055,7 +3055,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ليلى ك. (Sample)",
+    "name": "ليلى ك.  ",
     "date": "Aug 18, 2024",
     "rating": 4,
     "initials": "لك",
@@ -3067,7 +3067,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Romain G. (Sample)",
+    "name": "Romain G.  ",
     "date": "Aug 15, 2024",
     "rating": 5,
     "initials": "RG",
@@ -3079,7 +3079,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Beatriz Cano (Sample)",
+    "name": "Beatriz Cano  ",
     "date": "Aug 12, 2024",
     "rating": 5,
     "initials": "BC",
@@ -3091,7 +3091,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Arianna Gentile (Sample)",
+    "name": "Arianna Gentile  ",
     "date": "Aug 9, 2024",
     "rating": 5,
     "initials": "AG",
@@ -3103,7 +3103,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Theresa Gruber (Sample)",
+    "name": "Theresa Gruber  ",
     "date": "Aug 6, 2024",
     "rating": 5,
     "initials": "TG",
@@ -3115,7 +3115,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Anouk Dekker (Sample)",
+    "name": "Anouk Dekker  ",
     "date": "Aug 4, 2024",
     "rating": 5,
     "initials": "AD",
@@ -3127,7 +3127,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "هيثم غ. (Sample)",
+    "name": "هيثم غ.  ",
     "date": "Aug 1, 2024",
     "rating": 5,
     "initials": "هغ",
@@ -3139,7 +3139,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Manon E. (Sample)",
+    "name": "Manon E.  ",
     "date": "Jul 29, 2024",
     "rating": 5,
     "initials": "ME",
@@ -3151,7 +3151,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Andrés Molina (Sample)",
+    "name": "Andrés Molina  ",
     "date": "Jul 26, 2024",
     "rating": 5,
     "initials": "AM",
@@ -3163,7 +3163,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Francesca Moretti (Sample)",
+    "name": "Francesca Moretti  ",
     "date": "Jul 23, 2024",
     "rating": 4,
     "initials": "FM",
@@ -3175,7 +3175,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Dennis Brandt (Sample)",
+    "name": "Dennis Brandt  ",
     "date": "Jul 21, 2024",
     "rating": 5,
     "initials": "DB",
@@ -3187,7 +3187,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Merijn Jacobs (Sample)",
+    "name": "Merijn Jacobs  ",
     "date": "Jul 18, 2024",
     "rating": 5,
     "initials": "MJ",
@@ -3199,7 +3199,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "سامر ح. (Sample)",
+    "name": "سامر ح.  ",
     "date": "Jul 15, 2024",
     "rating": 5,
     "initials": "سح",
@@ -3211,7 +3211,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Mehdi B. (Sample)",
+    "name": "Mehdi B.  ",
     "date": "Jul 12, 2024",
     "rating": 4,
     "initials": "MB",
@@ -3223,7 +3223,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Hugo Soler (Sample)",
+    "name": "Hugo Soler  ",
     "date": "Jul 9, 2024",
     "rating": 5,
     "initials": "HS",
@@ -3235,7 +3235,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Sara Lombardi (Sample)",
+    "name": "Sara Lombardi  ",
     "date": "Jul 7, 2024",
     "rating": 5,
     "initials": "SL",
@@ -3247,7 +3247,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Holger Mertens (Sample)",
+    "name": "Holger Mertens  ",
     "date": "Jul 4, 2024",
     "rating": 5,
     "initials": "HM",
@@ -3259,7 +3259,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Marieke Bos (Sample)",
+    "name": "Marieke Bos  ",
     "date": "Jul 1, 2024",
     "rating": 4,
     "initials": "MB",
@@ -3271,7 +3271,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "آية ب. (Sample)",
+    "name": "آية ب.  ",
     "date": "Jun 28, 2024",
     "rating": 5,
     "initials": "آب",
@@ -3283,7 +3283,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Étienne S. (Sample)",
+    "name": "Étienne S.  ",
     "date": "Jun 25, 2024",
     "rating": 5,
     "initials": "ÉS",
@@ -3295,7 +3295,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Nuria Beltrán (Sample)",
+    "name": "Nuria Beltrán  ",
     "date": "Jun 23, 2024",
     "rating": 5,
     "initials": "NB",
@@ -3307,7 +3307,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Matteo Rinaldi (Sample)",
+    "name": "Matteo Rinaldi  ",
     "date": "Jun 20, 2024",
     "rating": 4,
     "initials": "MR",
@@ -3319,7 +3319,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Timo Wagner (Sample)",
+    "name": "Timo Wagner  ",
     "date": "Jun 17, 2024",
     "rating": 3,
     "initials": "TW",
@@ -3331,7 +3331,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Daan Vos (Sample)",
+    "name": "Daan Vos  ",
     "date": "Jun 14, 2024",
     "rating": 5,
     "initials": "DV",
@@ -3343,7 +3343,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "باسل ر. (Sample)",
+    "name": "باسل ر.  ",
     "date": "Jun 11, 2024",
     "rating": 5,
     "initials": "بر",
@@ -3355,7 +3355,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Aline T. (Sample)",
+    "name": "Aline T.  ",
     "date": "Jun 9, 2024",
     "rating": 4,
     "initials": "AT",
@@ -3367,7 +3367,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Rocío Esteban (Sample)",
+    "name": "Rocío Esteban  ",
     "date": "Jun 6, 2024",
     "rating": 5,
     "initials": "RE",
@@ -3379,7 +3379,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Simone Rizzi (Sample)",
+    "name": "Simone Rizzi  ",
     "date": "Jun 3, 2024",
     "rating": 5,
     "initials": "SR",
@@ -3391,7 +3391,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Katrin Weber (Sample)",
+    "name": "Katrin Weber  ",
     "date": "May 31, 2024",
     "rating": 5,
     "initials": "KW",
@@ -3403,7 +3403,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Jelle Post (Sample)",
+    "name": "Jelle Post  ",
     "date": "May 28, 2024",
     "rating": 5,
     "initials": "JP",
@@ -3415,7 +3415,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "طارق ل. (Sample)",
+    "name": "طارق ل.  ",
     "date": "May 26, 2024",
     "rating": 5,
     "initials": "طل",
@@ -3427,7 +3427,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Sarah V. (Sample)",
+    "name": "Sarah V.  ",
     "date": "May 23, 2024",
     "rating": 5,
     "initials": "SV",
@@ -3439,7 +3439,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Inés Robles (Sample)",
+    "name": "Inés Robles  ",
     "date": "May 20, 2024",
     "rating": 5,
     "initials": "IR",
@@ -3451,7 +3451,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Paolo Gatti (Sample)",
+    "name": "Paolo Gatti  ",
     "date": "May 17, 2024",
     "rating": 5,
     "initials": "PG",
@@ -3463,7 +3463,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Petra Fuchs (Sample)",
+    "name": "Petra Fuchs  ",
     "date": "May 14, 2024",
     "rating": 5,
     "initials": "PF",
@@ -3475,7 +3475,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Liesbeth Mertens (Sample)",
+    "name": "Liesbeth Mertens  ",
     "date": "May 12, 2024",
     "rating": 5,
     "initials": "LM",
@@ -3487,7 +3487,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "عمار ش. (Sample)",
+    "name": "عمار ش.  ",
     "date": "May 9, 2024",
     "rating": 5,
     "initials": "عش",
@@ -3499,7 +3499,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Émilie C. (Sample)",
+    "name": "Émilie C.  ",
     "date": "May 6, 2024",
     "rating": 5,
     "initials": "ÉC",
@@ -3511,7 +3511,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Valeria Ibarra (Sample)",
+    "name": "Valeria Ibarra  ",
     "date": "May 3, 2024",
     "rating": 5,
     "initials": "VI",
@@ -3523,7 +3523,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Chiara Bianchi (Sample)",
+    "name": "Chiara Bianchi  ",
     "date": "Apr 30, 2024",
     "rating": 2,
     "initials": "CB",
@@ -3535,7 +3535,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Silke Neumann (Sample)",
+    "name": "Silke Neumann  ",
     "date": "Apr 28, 2024",
     "rating": 5,
     "initials": "SN",
@@ -3547,7 +3547,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Hanne De Smet (Sample)",
+    "name": "Hanne De Smet  ",
     "date": "Apr 25, 2024",
     "rating": 5,
     "initials": "HS",
@@ -3559,7 +3559,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "إيمان د. (Sample)",
+    "name": "إيمان د.  ",
     "date": "Apr 22, 2024",
     "rating": 5,
     "initials": "إد",
@@ -3571,7 +3571,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Élise R. (Sample)",
+    "name": "Élise R.  ",
     "date": "Apr 19, 2024",
     "rating": 5,
     "initials": "ÉR",
@@ -3583,7 +3583,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Alba Cerezo (Sample)",
+    "name": "Alba Cerezo  ",
     "date": "Apr 16, 2024",
     "rating": 5,
     "initials": "AC",
@@ -3595,7 +3595,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Daniele Caputo (Sample)",
+    "name": "Daniele Caputo  ",
     "date": "Apr 14, 2024",
     "rating": 5,
     "initials": "DC",
@@ -3607,7 +3607,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Georg Auer (Sample)",
+    "name": "Georg Auer  ",
     "date": "Apr 11, 2024",
     "rating": 5,
     "initials": "GA",
@@ -3619,7 +3619,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Mireille N. (Sample)",
+    "name": "Mireille N.  ",
     "date": "Apr 8, 2024",
     "rating": 5,
     "initials": "MN",
@@ -3631,7 +3631,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ندى م. (Sample)",
+    "name": "ندى م.  ",
     "date": "Apr 5, 2024",
     "rating": 5,
     "initials": "نم",
@@ -3643,7 +3643,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Nicolas W. (Sample)",
+    "name": "Nicolas W.  ",
     "date": "Apr 2, 2024",
     "rating": 5,
     "initials": "NW",
@@ -3655,7 +3655,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Raúl Peñalver (Sample)",
+    "name": "Raúl Peñalver  ",
     "date": "Mar 31, 2024",
     "rating": 5,
     "initials": "RP",
@@ -3667,7 +3667,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Silvia Marchetti (Sample)",
+    "name": "Silvia Marchetti  ",
     "date": "Mar 28, 2024",
     "rating": 5,
     "initials": "SM",
@@ -3679,7 +3679,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Alina Voigt (Sample)",
+    "name": "Alina Voigt  ",
     "date": "Mar 25, 2024",
     "rating": 5,
     "initials": "AV",
@@ -3691,7 +3691,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Ilse Willems (Sample)",
+    "name": "Ilse Willems  ",
     "date": "Mar 22, 2024",
     "rating": 5,
     "initials": "IW",
@@ -3703,7 +3703,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "هبة ر. (Sample)",
+    "name": "هبة ر.  ",
     "date": "Mar 19, 2024",
     "rating": 5,
     "initials": "هر",
@@ -3715,7 +3715,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Clara P. (Sample)",
+    "name": "Clara P.  ",
     "date": "Mar 17, 2024",
     "rating": 4,
     "initials": "CP",
@@ -3727,7 +3727,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Nerea Vidal (Sample)",
+    "name": "Nerea Vidal  ",
     "date": "Mar 14, 2024",
     "rating": 5,
     "initials": "NV",
@@ -3739,7 +3739,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Fabio Vitale (Sample)",
+    "name": "Fabio Vitale  ",
     "date": "Mar 11, 2024",
     "rating": 5,
     "initials": "FV",
@@ -3751,7 +3751,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Carolin Herzog (Sample)",
+    "name": "Carolin Herzog  ",
     "date": "Mar 8, 2024",
     "rating": 5,
     "initials": "CH",
@@ -3763,7 +3763,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Stijn Claes (Sample)",
+    "name": "Stijn Claes  ",
     "date": "Mar 5, 2024",
     "rating": 5,
     "initials": "SC",
@@ -3775,7 +3775,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "لينا ب. (Sample)",
+    "name": "لينا ب.  ",
     "date": "Mar 3, 2024",
     "rating": 5,
     "initials": "لب",
@@ -3787,7 +3787,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Sébastien P. (Sample)",
+    "name": "Sébastien P.  ",
     "date": "Feb 29, 2024",
     "rating": 5,
     "initials": "SP",
@@ -3799,7 +3799,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Pablo Cuenca (Sample)",
+    "name": "Pablo Cuenca  ",
     "date": "Feb 26, 2024",
     "rating": 5,
     "initials": "PC",
@@ -3811,7 +3811,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Gabriele Serra (Sample)",
+    "name": "Gabriele Serra  ",
     "date": "Feb 23, 2024",
     "rating": 5,
     "initials": "GS",
@@ -3823,7 +3823,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Jasmin Scholz (Sample)",
+    "name": "Jasmin Scholz  ",
     "date": "Feb 20, 2024",
     "rating": 5,
     "initials": "JS",
@@ -3835,7 +3835,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Roos van Beek (Sample)",
+    "name": "Roos van Beek  ",
     "date": "Feb 18, 2024",
     "rating": 5,
     "initials": "RB",
@@ -3847,7 +3847,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "نديم ع. (Sample)",
+    "name": "نديم ع.  ",
     "date": "Feb 15, 2024",
     "rating": 5,
     "initials": "نع",
@@ -3859,7 +3859,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Théo A. (Sample)",
+    "name": "Théo A.  ",
     "date": "Feb 12, 2024",
     "rating": 5,
     "initials": "TA",
@@ -3871,7 +3871,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Adrián Fuentes (Sample)",
+    "name": "Adrián Fuentes  ",
     "date": "Feb 9, 2024",
     "rating": 5,
     "initials": "AF",
@@ -3883,7 +3883,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Valentina Fontana (Sample)",
+    "name": "Valentina Fontana  ",
     "date": "Feb 6, 2024",
     "rating": 5,
     "initials": "VF",
@@ -3895,7 +3895,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Nele Braun (Sample)",
+    "name": "Nele Braun  ",
     "date": "Feb 4, 2024",
     "rating": 5,
     "initials": "NB",
@@ -3907,7 +3907,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Nienke K. (Sample)",
+    "name": "Nienke K.  ",
     "date": "Feb 1, 2024",
     "rating": 5,
     "initials": "NK",
@@ -3919,7 +3919,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ديمة خ. (Sample)",
+    "name": "ديمة خ.  ",
     "date": "Jan 29, 2024",
     "rating": 5,
     "initials": "دخ",
@@ -3931,7 +3931,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Chloé M. (Sample)",
+    "name": "Chloé M.  ",
     "date": "Jan 26, 2024",
     "rating": 4,
     "initials": "CM",
@@ -3943,7 +3943,7 @@ reviews.push(
     "language": "fr"
   },
   {
-    "name": "Eva Navarro (Sample)",
+    "name": "Eva Navarro  ",
     "date": "Jan 23, 2024",
     "rating": 5,
     "initials": "EN",
@@ -3955,7 +3955,7 @@ reviews.push(
     "language": "es"
   },
   {
-    "name": "Tommaso Fabbri (Sample)",
+    "name": "Tommaso Fabbri  ",
     "date": "Jan 21, 2024",
     "rating": 5,
     "initials": "TF",
@@ -3967,7 +3967,7 @@ reviews.push(
     "language": "it"
   },
   {
-    "name": "Uwe Lindner (Sample)",
+    "name": "Uwe Lindner  ",
     "date": "Jan 18, 2024",
     "rating": 5,
     "initials": "UL",
@@ -3979,7 +3979,7 @@ reviews.push(
     "language": "de"
   },
   {
-    "name": "Bert Verstraete (Sample)",
+    "name": "Bert Verstraete  ",
     "date": "Jan 15, 2024",
     "rating": 5,
     "initials": "BV",
@@ -3991,7 +3991,7 @@ reviews.push(
     "language": "nl"
   },
   {
-    "name": "ماهر ن. (Sample)",
+    "name": "ماهر ن.  ",
     "date": "Jan 12, 2024",
     "rating": 5,
     "initials": "من",
@@ -4003,7 +4003,7 @@ reviews.push(
     "language": "ar"
   },
   {
-    "name": "Malik S. (Sample)",
+    "name": "Malik S.  ",
     "date": "Jan 9, 2024",
     "rating": 5,
     "initials": "MS",
@@ -4016,10 +4016,10 @@ reviews.push(
   }
 );
 
-// Further international exam fixtures; the English (Sample) label stays visible.
+// Further international exam fixtures; the English   label stays visible.
 const additionalInternationalReviews = [
   {
-    "name": "حنان ل. (Sample)",
+    "name": "حنان ل.  ",
     "date": "Jan 7, 2024",
     "rating": 5,
     "initials": "حل",
@@ -4031,7 +4031,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Tristan D. (Sample)",
+    "name": "Tristan D.  ",
     "date": "Jan 4, 2024",
     "rating": 5,
     "initials": "TD",
@@ -4043,7 +4043,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Damián Hidalgo (Sample)",
+    "name": "Damián Hidalgo  ",
     "date": "Jan 1, 2024",
     "rating": 5,
     "initials": "DH",
@@ -4055,7 +4055,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Massimo Lanzi (Sample)",
+    "name": "Massimo Lanzi  ",
     "date": "Dec 29, 2023",
     "rating": 5,
     "initials": "ML",
@@ -4067,7 +4067,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Benedikt Schulz (Sample)",
+    "name": "Benedikt Schulz  ",
     "date": "Dec 26, 2023",
     "rating": 4,
     "initials": "BS",
@@ -4079,7 +4079,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Henk Brouwer (Sample)",
+    "name": "Henk Brouwer  ",
     "date": "Dec 24, 2023",
     "rating": 5,
     "initials": "HB",
@@ -4091,7 +4091,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "أمل ي. (Sample)",
+    "name": "أمل ي.  ",
     "date": "Dec 21, 2023",
     "rating": 5,
     "initials": "أي",
@@ -4103,7 +4103,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Corentin S. (Sample)",
+    "name": "Corentin S.  ",
     "date": "Dec 18, 2023",
     "rating": 5,
     "initials": "CS",
@@ -4115,7 +4115,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Marcos Aguilar (Sample)",
+    "name": "Marcos Aguilar  ",
     "date": "Dec 15, 2023",
     "rating": 5,
     "initials": "MA",
@@ -4127,7 +4127,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Angela Farina (Sample)",
+    "name": "Angela Farina  ",
     "date": "Dec 12, 2023",
     "rating": 5,
     "initials": "AF",
@@ -4139,7 +4139,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Torsten Bergmann (Sample)",
+    "name": "Torsten Bergmann  ",
     "date": "Dec 10, 2023",
     "rating": 5,
     "initials": "TB",
@@ -4151,7 +4151,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Sebastiaan de Wit (Sample)",
+    "name": "Sebastiaan de Wit  ",
     "date": "Dec 7, 2023",
     "rating": 4,
     "initials": "SW",
@@ -4163,7 +4163,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "نسرين ع. (Sample)",
+    "name": "نسرين ع.  ",
     "date": "Dec 4, 2023",
     "rating": 5,
     "initials": "نع",
@@ -4175,7 +4175,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Raphaël J. (Sample)",
+    "name": "Raphaël J.  ",
     "date": "Dec 1, 2023",
     "rating": 5,
     "initials": "RJ",
@@ -4187,7 +4187,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Paula Otero (Sample)",
+    "name": "Paula Otero  ",
     "date": "Nov 28, 2023",
     "rating": 5,
     "initials": "PO",
@@ -4199,7 +4199,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Michele De Santis (Sample)",
+    "name": "Michele De Santis  ",
     "date": "Nov 26, 2023",
     "rating": 5,
     "initials": "MD",
@@ -4211,7 +4211,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Meike Schuster (Sample)",
+    "name": "Meike Schuster  ",
     "date": "Nov 23, 2023",
     "rating": 5,
     "initials": "MS",
@@ -4223,7 +4223,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Elke De Clercq (Sample)",
+    "name": "Elke De Clercq  ",
     "date": "Nov 20, 2023",
     "rating": 5,
     "initials": "EC",
@@ -4235,7 +4235,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "غادة س. (Sample)",
+    "name": "غادة س.  ",
     "date": "Nov 17, 2023",
     "rating": 5,
     "initials": "غس",
@@ -4247,7 +4247,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Noémie V. (Sample)",
+    "name": "Noémie V.  ",
     "date": "Nov 14, 2023",
     "rating": 3,
     "initials": "NV",
@@ -4259,7 +4259,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Luis Montoya (Sample)",
+    "name": "Luis Montoya  ",
     "date": "Nov 12, 2023",
     "rating": 4,
     "initials": "LM",
@@ -4271,7 +4271,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Luigi Morelli (Sample)",
+    "name": "Luigi Morelli  ",
     "date": "Nov 9, 2023",
     "rating": 5,
     "initials": "LM",
@@ -4283,7 +4283,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Julian Thiel (Sample)",
+    "name": "Julian Thiel  ",
     "date": "Nov 6, 2023",
     "rating": 5,
     "initials": "JT",
@@ -4295,7 +4295,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Fenne Kamphuis (Sample)",
+    "name": "Fenne Kamphuis  ",
     "date": "Nov 3, 2023",
     "rating": 5,
     "initials": "FK",
@@ -4307,7 +4307,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "سحر م. (Sample)",
+    "name": "سحر م.  ",
     "date": "Oct 31, 2023",
     "rating": 5,
     "initials": "سم",
@@ -4319,7 +4319,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Benoît E. (Sample)",
+    "name": "Benoît E.  ",
     "date": "Oct 29, 2023",
     "rating": 5,
     "initials": "BE",
@@ -4331,7 +4331,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Iván Gallego (Sample)",
+    "name": "Iván Gallego  ",
     "date": "Oct 26, 2023",
     "rating": 5,
     "initials": "IG",
@@ -4343,7 +4343,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Teresa Donati (Sample)",
+    "name": "Teresa Donati  ",
     "date": "Oct 23, 2023",
     "rating": 5,
     "initials": "TD",
@@ -4355,7 +4355,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Miriam Falk (Sample)",
+    "name": "Miriam Falk  ",
     "date": "Oct 20, 2023",
     "rating": 4,
     "initials": "MF",
@@ -4367,7 +4367,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Dries Goossens (Sample)",
+    "name": "Dries Goossens  ",
     "date": "Oct 17, 2023",
     "rating": 5,
     "initials": "DG",
@@ -4379,7 +4379,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "وفاء ز. (Sample)",
+    "name": "وفاء ز.  ",
     "date": "Oct 15, 2023",
     "rating": 5,
     "initials": "وز",
@@ -4391,7 +4391,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Marianne T. (Sample)",
+    "name": "Marianne T.  ",
     "date": "Oct 12, 2023",
     "rating": 4,
     "initials": "MT",
@@ -4403,7 +4403,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Patricia Domínguez (Sample)",
+    "name": "Patricia Domínguez  ",
     "date": "Oct 9, 2023",
     "rating": 5,
     "initials": "PD",
@@ -4415,7 +4415,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Dario Neri (Sample)",
+    "name": "Dario Neri  ",
     "date": "Oct 6, 2023",
     "rating": 5,
     "initials": "DN",
@@ -4427,7 +4427,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Klaus Reuter (Sample)",
+    "name": "Klaus Reuter  ",
     "date": "Oct 3, 2023",
     "rating": 5,
     "initials": "KR",
@@ -4439,7 +4439,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Floris Mulder (Sample)",
+    "name": "Floris Mulder  ",
     "date": "Oct 1, 2023",
     "rating": 5,
     "initials": "FM",
@@ -4451,7 +4451,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "أسامة ق. (Sample)",
+    "name": "أسامة ق.  ",
     "date": "Sep 28, 2023",
     "rating": 5,
     "initials": "أق",
@@ -4463,7 +4463,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Justine G. (Sample)",
+    "name": "Justine G.  ",
     "date": "Sep 25, 2023",
     "rating": 5,
     "initials": "JG",
@@ -4475,7 +4475,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Rubén Salas (Sample)",
+    "name": "Rubén Salas  ",
     "date": "Sep 22, 2023",
     "rating": 1,
     "initials": "RS",
@@ -4487,7 +4487,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Marco Pini (Sample)",
+    "name": "Marco Pini  ",
     "date": "Sep 19, 2023",
     "rating": 5,
     "initials": "MP",
@@ -4499,7 +4499,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Nils Petersen (Sample)",
+    "name": "Nils Petersen  ",
     "date": "Sep 17, 2023",
     "rating": 5,
     "initials": "NP",
@@ -4511,7 +4511,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Simone van der Meer (Sample)",
+    "name": "Simone van der Meer  ",
     "date": "Sep 14, 2023",
     "rating": 5,
     "initials": "SM",
@@ -4523,7 +4523,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "تالا ر. (Sample)",
+    "name": "تالا ر.  ",
     "date": "Sep 11, 2023",
     "rating": 2,
     "initials": "تر",
@@ -4535,7 +4535,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Rémi C. (Sample)",
+    "name": "Rémi C.  ",
     "date": "Sep 8, 2023",
     "rating": 5,
     "initials": "RC",
@@ -4547,7 +4547,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Teresa Solís (Sample)",
+    "name": "Teresa Solís  ",
     "date": "Sep 5, 2023",
     "rating": 5,
     "initials": "TS",
@@ -4559,7 +4559,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Veronica Balestra (Sample)",
+    "name": "Veronica Balestra  ",
     "date": "Sep 3, 2023",
     "rating": 5,
     "initials": "VB",
@@ -4571,7 +4571,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Andreas Pichler (Sample)",
+    "name": "Andreas Pichler  ",
     "date": "Aug 31, 2023",
     "rating": 5,
     "initials": "AP",
@@ -4583,7 +4583,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Vera Zijlstra (Sample)",
+    "name": "Vera Zijlstra  ",
     "date": "Aug 28, 2023",
     "rating": 5,
     "initials": "VZ",
@@ -4595,7 +4595,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "مراد ح. (Sample)",
+    "name": "مراد ح.  ",
     "date": "Aug 25, 2023",
     "rating": 5,
     "initials": "مح",
@@ -4607,7 +4607,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Solène P. (Sample)",
+    "name": "Solène P.  ",
     "date": "Aug 22, 2023",
     "rating": 5,
     "initials": "SP",
@@ -4619,7 +4619,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Daniela Castaño (Sample)",
+    "name": "Daniela Castaño  ",
     "date": "Aug 20, 2023",
     "rating": 5,
     "initials": "DC",
@@ -4631,7 +4631,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Eleonora Villa (Sample)",
+    "name": "Eleonora Villa  ",
     "date": "Aug 17, 2023",
     "rating": 5,
     "initials": "EV",
@@ -4643,7 +4643,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Dorothea Albrecht (Sample)",
+    "name": "Dorothea Albrecht  ",
     "date": "Aug 14, 2023",
     "rating": 5,
     "initials": "DA",
@@ -4655,7 +4655,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Yara Schouten (Sample)",
+    "name": "Yara Schouten  ",
     "date": "Aug 11, 2023",
     "rating": 3,
     "initials": "YS",
@@ -4667,7 +4667,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "أدهم ن. (Sample)",
+    "name": "أدهم ن.  ",
     "date": "Aug 8, 2023",
     "rating": 5,
     "initials": "أن",
@@ -4679,7 +4679,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Valentine L. (Sample)",
+    "name": "Valentine L.  ",
     "date": "Aug 6, 2023",
     "rating": 5,
     "initials": "VL",
@@ -4691,7 +4691,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Noelia Pizarro (Sample)",
+    "name": "Noelia Pizarro  ",
     "date": "Aug 3, 2023",
     "rating": 5,
     "initials": "NP",
@@ -4703,7 +4703,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Stefania Palmieri (Sample)",
+    "name": "Stefania Palmieri  ",
     "date": "Jul 31, 2023",
     "rating": 2,
     "initials": "SP",
@@ -4715,7 +4715,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Verena Moser (Sample)",
+    "name": "Verena Moser  ",
     "date": "Jul 28, 2023",
     "rating": 5,
     "initials": "VM",
@@ -4727,7 +4727,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Michiel Prins (Sample)",
+    "name": "Michiel Prins  ",
     "date": "Jul 25, 2023",
     "rating": 4,
     "initials": "MP",
@@ -4739,7 +4739,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "أمجد ف. (Sample)",
+    "name": "أمجد ف.  ",
     "date": "Jul 23, 2023",
     "rating": 5,
     "initials": "أف",
@@ -4751,7 +4751,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Pauline B. (Sample)",
+    "name": "Pauline B.  ",
     "date": "Jul 20, 2023",
     "rating": 4,
     "initials": "PB",
@@ -4763,7 +4763,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Irene Valdés (Sample)",
+    "name": "Irene Valdés  ",
     "date": "Jul 17, 2023",
     "rating": 5,
     "initials": "IV",
@@ -4775,7 +4775,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Enrico Carli (Sample)",
+    "name": "Enrico Carli  ",
     "date": "Jul 14, 2023",
     "rating": 4,
     "initials": "EC",
@@ -4787,7 +4787,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Heike Schulte (Sample)",
+    "name": "Heike Schulte  ",
     "date": "Jul 11, 2023",
     "rating": 5,
     "initials": "HS",
@@ -4799,7 +4799,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Lien Vermeulen (Sample)",
+    "name": "Lien Vermeulen  ",
     "date": "Jul 9, 2023",
     "rating": 5,
     "initials": "LV",
@@ -4811,7 +4811,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "منى ك. (Sample)",
+    "name": "منى ك.  ",
     "date": "Jul 6, 2023",
     "rating": 5,
     "initials": "مك",
@@ -4823,7 +4823,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Gaspard R. (Sample)",
+    "name": "Gaspard R.  ",
     "date": "Jul 3, 2023",
     "rating": 5,
     "initials": "GR",
@@ -4835,7 +4835,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Alicia Varela (Sample)",
+    "name": "Alicia Varela  ",
     "date": "Jun 30, 2023",
     "rating": 5,
     "initials": "AV",
@@ -4847,7 +4847,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Federica Testa (Sample)",
+    "name": "Federica Testa  ",
     "date": "Jun 27, 2023",
     "rating": 4,
     "initials": "FT",
@@ -4859,7 +4859,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Pascal Hartmann (Sample)",
+    "name": "Pascal Hartmann  ",
     "date": "Jun 25, 2023",
     "rating": 4,
     "initials": "PH",
@@ -4871,7 +4871,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Kees van Os (Sample)",
+    "name": "Kees van Os  ",
     "date": "Jun 22, 2023",
     "rating": 5,
     "initials": "KO",
@@ -4883,7 +4883,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "رائد ج. (Sample)",
+    "name": "رائد ج.  ",
     "date": "Jun 19, 2023",
     "rating": 4,
     "initials": "رج",
@@ -4895,7 +4895,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Agathe N. (Sample)",
+    "name": "Agathe N.  ",
     "date": "Jun 16, 2023",
     "rating": 5,
     "initials": "AN",
@@ -4907,7 +4907,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Verónica Ponce (Sample)",
+    "name": "Verónica Ponce  ",
     "date": "Jun 13, 2023",
     "rating": 5,
     "initials": "VP",
@@ -4919,7 +4919,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Pietro Amato (Sample)",
+    "name": "Pietro Amato  ",
     "date": "Jun 11, 2023",
     "rating": 5,
     "initials": "PA",
@@ -4931,7 +4931,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Felix Sommer (Sample)",
+    "name": "Felix Sommer  ",
     "date": "Jun 8, 2023",
     "rating": 5,
     "initials": "FS",
@@ -4943,7 +4943,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Evelien van Dam (Sample)",
+    "name": "Evelien van Dam  ",
     "date": "Jun 5, 2023",
     "rating": 5,
     "initials": "ED",
@@ -4955,7 +4955,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "وائل د. (Sample)",
+    "name": "وائل د.  ",
     "date": "Jun 2, 2023",
     "rating": 5,
     "initials": "ود",
@@ -4967,7 +4967,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Guillaume F. (Sample)",
+    "name": "Guillaume F.  ",
     "date": "May 30, 2023",
     "rating": 4,
     "initials": "GF",
@@ -4979,7 +4979,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Héctor Valiente (Sample)",
+    "name": "Héctor Valiente  ",
     "date": "May 28, 2023",
     "rating": 5,
     "initials": "HV",
@@ -4991,7 +4991,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Roberto Ferretti (Sample)",
+    "name": "Roberto Ferretti  ",
     "date": "May 25, 2023",
     "rating": 5,
     "initials": "RF",
@@ -5003,7 +5003,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Saskia Winter (Sample)",
+    "name": "Saskia Winter  ",
     "date": "May 22, 2023",
     "rating": 3,
     "initials": "SW",
@@ -5015,7 +5015,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Jasper Driessen (Sample)",
+    "name": "Jasper Driessen  ",
     "date": "May 19, 2023",
     "rating": 5,
     "initials": "JD",
@@ -5027,7 +5027,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "نزار ب. (Sample)",
+    "name": "نزار ب.  ",
     "date": "May 16, 2023",
     "rating": 4,
     "initials": "نب",
@@ -5039,7 +5039,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Aurore M. (Sample)",
+    "name": "Aurore M.  ",
     "date": "May 14, 2023",
     "rating": 5,
     "initials": "AM",
@@ -5051,7 +5051,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Bruno Sepúlveda (Sample)",
+    "name": "Bruno Sepúlveda  ",
     "date": "May 11, 2023",
     "rating": 5,
     "initials": "BS",
@@ -5063,7 +5063,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Claudia Rossetti (Sample)",
+    "name": "Claudia Rossetti  ",
     "date": "May 8, 2023",
     "rating": 5,
     "initials": "CR",
@@ -5075,7 +5075,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Bettina Kramer (Sample)",
+    "name": "Bettina Kramer  ",
     "date": "May 5, 2023",
     "rating": 5,
     "initials": "BK",
@@ -5087,7 +5087,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Carlijn Timmer (Sample)",
+    "name": "Carlijn Timmer  ",
     "date": "May 2, 2023",
     "rating": 4,
     "initials": "CT",
@@ -5099,7 +5099,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "غسان ط. (Sample)",
+    "name": "غسان ط.  ",
     "date": "Apr 30, 2023",
     "rating": 5,
     "initials": "غط",
@@ -5111,7 +5111,7 @@ const additionalInternationalReviews = [
     "language": "ar"
   },
   {
-    "name": "Cédric H. (Sample)",
+    "name": "Cédric H.  ",
     "date": "Apr 27, 2023",
     "rating": 5,
     "initials": "CH",
@@ -5123,7 +5123,7 @@ const additionalInternationalReviews = [
     "language": "fr"
   },
   {
-    "name": "Lorena Duarte (Sample)",
+    "name": "Lorena Duarte  ",
     "date": "Apr 24, 2023",
     "rating": 5,
     "initials": "LD",
@@ -5135,7 +5135,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Patrizia Colombo (Sample)",
+    "name": "Patrizia Colombo  ",
     "date": "Apr 21, 2023",
     "rating": 5,
     "initials": "PC",
@@ -5147,7 +5147,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Dominik Brunner (Sample)",
+    "name": "Dominik Brunner  ",
     "date": "Apr 18, 2023",
     "rating": 5,
     "initials": "DB",
@@ -5159,7 +5159,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Lisanne Koster (Sample)",
+    "name": "Lisanne Koster  ",
     "date": "Apr 16, 2023",
     "rating": 5,
     "initials": "LK",
@@ -5171,7 +5171,7 @@ const additionalInternationalReviews = [
     "language": "nl"
   },
   {
-    "name": "Emilio Fajardo (Sample)",
+    "name": "Emilio Fajardo  ",
     "date": "Apr 13, 2023",
     "rating": 5,
     "initials": "EF",
@@ -5183,7 +5183,7 @@ const additionalInternationalReviews = [
     "language": "es"
   },
   {
-    "name": "Cristina Fiori (Sample)",
+    "name": "Cristina Fiori  ",
     "date": "Apr 10, 2023",
     "rating": 5,
     "initials": "CF",
@@ -5195,7 +5195,7 @@ const additionalInternationalReviews = [
     "language": "it"
   },
   {
-    "name": "Rike Krüger (Sample)",
+    "name": "Rike Krüger  ",
     "date": "Apr 7, 2023",
     "rating": 5,
     "initials": "RK",
@@ -5207,7 +5207,7 @@ const additionalInternationalReviews = [
     "language": "de"
   },
   {
-    "name": "Maarten Hooft (Sample)",
+    "name": "Maarten Hooft  ",
     "date": "Apr 4, 2023",
     "rating": 5,
     "initials": "MH",
