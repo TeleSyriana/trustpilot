@@ -5282,8 +5282,8 @@ function getSampleReviewDates(review, now = new Date()){
 
   return {
     index,
-    date: `${postedLabel} (Sample date)`,
-    experienceDate: `${sampleReviewDateFormatter.format(experience)} (Sample date)`
+    date: `${postedLabel}`,
+    experienceDate: `${sampleReviewDateFormatter.format(experience)}`
   };
 }
 
